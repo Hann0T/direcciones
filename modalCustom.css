@@ -9,7 +9,7 @@
     height: 80vh;
     width: 80%;
     max-width: 1000px;
-    z-index: 200;
+    z-index: 1200;
     transform: translate(-50%, -50%) scale(0);
     transition: transform 200ms ease-in-out;
     overflow-y: hidden;
@@ -18,7 +18,7 @@
     transform: translate(-50%, -50%) scale(1);
 }
 .modal-custom__wrapper {
-    overflow-y: scroll;
+    overflow-y: auto;
     scrollbar-width: thin;
     max-height: 100%;
 }
@@ -51,7 +51,7 @@
     position: fixed;
     inset: 0;
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 100;
+    z-index: 1100;
     pointer-events: none;
     opacity: 0;
 }
