@@ -2,14 +2,14 @@
     position: fixed;
     top: 50%;
     left: 50%;
-    background-color: white;
-    border-radius: 10px;
-    box-sizing: border-box;
-    padding: 20px 10px 20px 20px;
     height: 80vh;
+    z-index: 1200;
     width: 80%;
     max-width: 1000px;
-    z-index: 200;
+    box-sizing: border-box;
+    padding: 20px 10px 20px 20px;
+    background-color: white;
+    border-radius: 10px;
     transform: translate(-50%, -50%) scale(0);
     transition: transform 200ms ease-in-out;
     overflow-y: hidden;
@@ -18,9 +18,9 @@
     transform: translate(-50%, -50%) scale(1);
 }
 .modal-custom__wrapper {
-    overflow-y: scroll;
-    scrollbar-width: thin;
     max-height: 100%;
+    overflow-y: auto;
+    scrollbar-width: thin;
 }
 
 .modal-custom__header {
@@ -40,18 +40,18 @@
 }
 
 #closeModal-custom {
-    font-size: 25px;
-    font-weight: bold;
     background-color: transparent;
     border: none;
+    font-size: 25px;
+    font-weight: bold;
     cursor: pointer;
 }
 
 #overlay-custom {
     position: fixed;
     inset: 0;
+    z-index: 1100;
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 100;
     pointer-events: none;
     opacity: 0;
 }
