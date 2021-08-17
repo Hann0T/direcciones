@@ -1,0 +1,3742 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Centros de Cobranza</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/6f400e58f0.js" crossorigin="anonymous"></script>
+  <style>
+    .cobranza h2 {
+      font-size: 24px;
+      color: #043B71;
+      margin-top: 30px;
+      display: block;
+    }
+
+    .cobranza h4 a {
+      font-size: 20px;
+      color: #043B71;
+      text-decoration: none;
+      display: block;
+    }
+
+    .panel-body a {
+      text-decoration: none;
+      display: block;
+      color: #717171;
+      font-size: 15px;
+      padding: 5px 10px 5px 15px;
+    }
+
+    .panel-body a:hover {
+      color: #043B71;
+    }
+  </style>
+  <link rel="stylesheet" href="./modalCustom.css">
+</head>
+
+<body>
+  <div class="container">
+    <!-- Panel principal -->
+    <div class="panel-group cobranza" id="accordion" role="tablist" aria-multiselectable="true">
+      <!-- Departamento de Piura -->
+      <h2> <i class="fas fa-map-marked-alt"></i> Oficinas de Cobranza Piura</h2>
+      <!-- lista Piura -->
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingTwo">
+          <h4 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsePiura" aria-expanded="true"
+              aria-controls="collapsePiura">
+              <i class="fas fa-arrow-alt-circle-right"></i> Provincia de Piura
+            </a>
+          </h4>
+        </div>
+        <div id="collapsePiura" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingPiura">
+          <div class="panel-body">
+            <a id="openModal-custom" data-modal-target="#modal-custom-piura" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i>
+              Distrito de Piura</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-veintiseis-de-octubre" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i>
+              Distrito de Veintiséis de Octubre</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-castilla" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i>
+              Distrito de
+              Castilla</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-catacaos" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i>
+              Distrito de
+              Catacaos</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-la-union" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i>
+              Distrito de
+              La Unión</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-la-arena" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i>
+              Distrito de
+              La Arena</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-tambogrande" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i>
+              Distrito de
+              Tambogrande</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-las-lomas" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i>
+              Distrito de
+              Las Lomas</a>
+          </div>
+        </div>
+      </div>
+      <!-- lista Paita -->
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingTwo">
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsePaita"
+              aria-expanded="false" aria-controls="collapsePaita">
+              <i class="fas fa-arrow-alt-circle-right"></i> Provincia de Paita
+            </a>
+          </h4>
+        </div>
+        <div id="collapsePaita" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingPaita">
+          <div class="panel-body">
+            <a id="openModal-custom" data-modal-target="#modal-custom-paita" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i>
+              Distrito de
+              Paita</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-el-arenal" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i>
+              Distrito de
+              El Arenal</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-amotape" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i>
+              Distrito de
+              Amotape</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-la-huaca" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i>
+              Distrito de
+              La Huaca</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-vichayal" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i>
+              Distrito de
+              Vichayal</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-tamarindo" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i>
+              Distrito de
+              Tamarindo</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-ignacio-escudero" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i>
+              Distrito de
+              Ignacio Escudero</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-colan" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i>
+              Distrito de Colán</a>
+          </div>
+        </div>
+      </div>
+      <!-- lista Sechura -->
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSechura"
+              aria-expanded="false" aria-controls="collapseSechura">
+              <i class="fas fa-arrow-alt-circle-right"></i> Provincia de Sechura
+            </a>
+          </h4>
+        </div>
+        <div id="collapseSechura" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSechura">
+          <div class="panel-body">
+            <a id="openModal-custom" data-modal-target="#modal-custom-sechura" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              Sechura</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-el-rinconada-llicuar" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              El Rinconada Llicuar</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-bellavista-de-la-union"
+              style="cursor: pointer;"><i class="fas fa-map-marker-alt"></i> Distrito de
+              Bellavista de la Unión</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-bernal" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              Bernal</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-cristo-nos-valga" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              Cristo Nos Valga</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-vice" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              Vice</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-el-tallan" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              El Tallán</a>
+          </div>
+        </div>
+      </div>
+      <!-- lista Talara -->
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTalara"
+              aria-expanded="false" aria-controls="collapseTalara">
+              <i class="fas fa-arrow-alt-circle-right"></i> Provincia de Talara
+            </a>
+          </h4>
+        </div>
+        <div id="collapseTalara" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTalara">
+          <div class="panel-body">
+            <a id="openModal-custom" data-modal-target="#modal-custom-talara" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              Talara</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-lobitos" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              Lobitos</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-el-alto" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de El
+              Alto</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-los-organos" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              Los Órganos</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-mancora" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              Máncora</a>
+          </div>
+        </div>
+      </div>
+      <!-- lista Sullana -->
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSullana"
+              aria-expanded="false" aria-controls="collapseSullana">
+              <i class="fas fa-arrow-alt-circle-right"></i> Provincia de Sullana
+            </a>
+          </h4>
+        </div>
+        <div id="collapseSullana" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSullana">
+          <div class="panel-body">
+            <a id="openModal-custom" data-modal-target="#modal-custom-sullana" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              Sullana </a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-bellavista" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              Bellavista </a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-querecotillo" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              Querecotillo </a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-marcavelica" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              Marcavelica </a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-lancones" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              Lancones </a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-salitral-sullana" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              Salitral</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-miguel-checa" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              Miguel Checa </a>
+          </div>
+        </div>
+      </div>
+      <!-- lista Ayabaca -->
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseAyabaca"
+              aria-expanded="false" aria-controls="collapseAyabaca">
+              <i class="fas fa-arrow-alt-circle-right"></i> Provincia de Ayabaca
+            </a>
+          </h4>
+        </div>
+        <div id="collapseAyabaca" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingAyabaca">
+          <div class="panel-body">
+            <a id="openModal-custom" data-modal-target="#modal-custom-ayabaca" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              Ayabaca </a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-montero" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              Montero </a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-paimas" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              Paimas </a>
+          </div>
+        </div>
+      </div>
+      <!-- lista Morropon -->
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseMorropon"
+              aria-expanded="false" aria-controls="collapseMorropon">
+              <i class="fas fa-arrow-alt-circle-right"></i> Provincia de Morropón
+            </a>
+          </h4>
+        </div>
+        <div id="collapseMorropon" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingMorropon">
+          <div class="panel-body">
+            <a id="openModal-custom" data-modal-target="#modal-custom-buenos-aires" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              Buenos Aires</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-chulucanas" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              Chulucanas</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-morropon" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              Morropón</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-la-matanza" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              La Matanza</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-salitral-morropon" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              Salitral</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-santo-domingo" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              Santo Domingo</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-santa-catalina-de-mossa"
+              style="cursor: pointer;"><i class="fas fa-map-marker-alt"></i> Distrito de
+              Santa Catalina de Mossa</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-yamango" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              Yamango</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-san-juan-de-bigote" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              San Juan de Bigote</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-chalaco" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              Chalaco</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-pacaipampa" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              Pacaipampa</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-frias" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              Frías</a>
+
+          </div>
+        </div>
+      </div>
+      <!-- lista Huancabamba -->
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+              href="#collapseHuancabamba" aria-expanded="false" aria-controls="collapseHuancabamba">
+              <i class="fas fa-arrow-alt-circle-right"></i> Provincia de Huancabamba
+            </a>
+          </h4>
+        </div>
+        <div id="collapseHuancabamba" class="panel-collapse collapse" role="tabpanel"
+          aria-labelledby="headingHuancabamba">
+          <div class="panel-body">
+            <a id="openModal-custom" data-modal-target="#modal-custom-huancabamba" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito
+              de Huancabamba</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-huarmaca" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito
+              de Huarmaca</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-canchaque" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito
+              de Canchaque</a>
+          </div>
+        </div>
+      </div>
+      <!-- Departamento Tumbes -->
+      <h2><i class="fas fa-map-marked-alt"></i> Oficinas de Cobranza Tumbes </h2>
+      <!-- lista Tumbes -->
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTumbes"
+              aria-expanded="false" aria-controls="collapseTumbes">
+              <i class="fas fa-arrow-alt-circle-right"></i> Provincia de Tumbes
+            </a>
+          </h4>
+        </div>
+        <div id="collapseTumbes" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTumbes">
+          <div class="panel-body">
+            <a id="openModal-custom" data-modal-target="#modal-custom-tumbes" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              Tumbes</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-san-jacinto" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              San Jacinto</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-corrales" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              Corrales</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-la-cruz" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de La
+              Cruz</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-san-juan-de-la-virgen" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              San Juan de la Virgen</a>
+          </div>
+        </div>
+      </div>
+      <!-- lista Contralmirante Villar -->
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+              href="#collapseContralmirante" aria-expanded="false" aria-controls="collapseContralmirante">
+              <i class="fas fa-arrow-alt-circle-right"></i> Provincia de Contralmirante
+            </a>
+          </h4>
+        </div>
+        <div id="collapseContralmirante" class="panel-collapse collapse" role="tabpanel"
+          aria-labelledby="headingContralmirante">
+          <div class="panel-body">
+            <a id="openModal-custom" data-modal-target="#modal-custom-canoas-de-punta-sal" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i>
+              Distrito de Canoas de Punta Sal</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-zorritos" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i>
+              Distrito de Zorritos</a>
+          </div>
+        </div>
+      </div>
+      <!-- lista Zarumilla -->
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseZarumilla"
+              aria-expanded="false" aria-controls="collapseZarumilla">
+              <i class="fas fa-arrow-alt-circle-right"></i> Provincia de Zarumilla
+            </a>
+          </h4>
+        </div>
+        <div id="collapseZarumilla" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingZarumilla">
+          <div class="panel-body">
+            <a id="openModal-custom" data-modal-target="#modal-custom-zarumilla" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              Zarumilla</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-papayal" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              Papayal</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-matapalo" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              Matapalo</a>
+            <a id="openModal-custom" data-modal-target="#modal-custom-aguas-verdes" style="cursor: pointer;"><i
+                class="fas fa-map-marker-alt"></i> Distrito de
+              Aguas Verdes</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modales Piura -->
+  <!-- Distrito de Piura -->
+  <div class="modal-custom" id="modal-custom-piura">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de piura</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Piura</th>
+          </tr>
+          <tr>
+            <td>1.Av. Loreto Nro. 522</td>
+            <td>Servicios JRA</td>
+          </tr>
+          <tr>
+            <td>2.Jr. Junín Nro. 530 Cercado Piura</td>
+            <td>Claudia Montes Morales Web</td>
+          </tr>
+          <tr>
+            <td>3.Calle Tacna Nro. 361</td>
+            <td>Libre</td>
+          </tr>
+          <tr>
+            <td>4.Calle Libertad Nro. 583</td>
+            <td>N & J Nilton y Josué S.A.R.L.</td>
+          </tr>
+          <tr>
+            <td>5.Jr. Moquegua Nro. 477</td>
+            <td>Negocios María Miriam</td>
+          </tr>
+          <tr>
+            <td>6.Jr. Huancavelica Stand 12 Sub Lt A3</td>
+            <td>Spada Soluciones Dig</td>
+          </tr>
+          <tr>
+            <td>7.A. H. Pachitea Calle Zarumilla Nro. 272</td>
+            <td>Carlos Alberto Ubillús Torres</td>
+          </tr>
+          <tr>
+            <td>8.Mercado de Telas Pto. 12</td>
+            <td>Comercial Luz</td>
+          </tr>
+          <tr>
+            <td>9.Fundo Ejidos Mz. J. Lt. 7</td>
+            <td>Ayanna</td>
+          </tr>
+          <tr>
+            <td>10.Residencial Piura Jr. Villa 1056 Mz H Lt 37</td>
+            <td>Comercial Leyla</td>
+          </tr>
+          <tr>
+            <td>11.Urb. Grau Mz. J Lt. 16 Int. 04</td>
+            <td>Servicampal</td>
+          </tr>
+          <tr>
+            <td>12.Urb. San Ramón Mz. A1 Lote. 04</td>
+            <td>Comercial Zava</td>
+          </tr>
+          <tr>
+            <td>13.Urb. Parques del Chipe Mz. C Lt. 10</td>
+            <td>Minie Recargas</td>
+          </tr>
+          <tr>
+            <td>14.Urb. Los Geranios Av. La Amapolas Mz. G Lt 59</td>
+            <td>Bms Linkafarma</td>
+          </tr>
+          <tr>
+            <td>15.A.H. 18 de Mayo Mz. P Lt. 3</td>
+            <td>Agente Rosmery</td>
+          </tr>
+          <tr>
+            <td>16.A.H. Víctor Raúl Mz. J Lt. 26 A</td>
+            <td>Multiservicios Gianella</td>
+          </tr>
+          <tr>
+            <td>17.A.H. Víctor Raúl Mz. F Lt. 1b</td>
+            <td>Karina Tume</td>
+          </tr>
+          <tr>
+            <td>18.A.H. Víctor Raúl Mz. O Lt. 22</td>
+            <td>Bodeguita Lucy</td>
+          </tr>
+          <tr>
+            <td>19.A.H. San Pedro Mz. 32 Lt. 8</td>
+            <td>Cochachi García Jhany KaroL</td>
+          </tr>
+          <tr>
+            <td>20.A.H. San Pedro Mz. 02 Lt. 15</td>
+            <td>Mi Cautivo</td>
+          </tr>
+          <tr>
+            <td>21.A.H. Señor de Los Milagros Mz. A Lt. 11</td>
+            <td>Servicios Generales Silvia</td>
+          </tr>
+          <tr>
+            <td>22.Calle Arequipa N° 630-632</td>
+            <td>Agencia Piura</td>
+          </tr>
+        </table>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Veintiséis de Ocubre -->
+  <div class="modal-custom" id="modal-custom-veintiseis-de-octubre">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Veintiséis de Ocubre</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Veintiséis de Octubre</th>
+          </tr>
+          <tr>
+            <td>1.Ex Polvorines Mz. R2 Lt. 1</td>
+            <td>Multiservicios Sga</td>
+          </tr>
+          <tr>
+            <td>2.A.H. Los Polvorines Sector 2A Mz. H3 Lt 07</td>
+            <td>Negocios y Servicios Aldamira</td>
+          </tr>
+          <tr>
+            <td>3.A.H. Susana Higushi Mz B Lt. 08</td>
+            <td>Bodeguita Jesús Renato</td>
+          </tr>
+          <tr>
+            <td>4.A.H. Rosa de Guadalupe Mz. K2 Lt. 15</td>
+            <td>Néstor Ortiz Cabana</td>
+          </tr>
+          <tr>
+            <td>5.A.H. Fátima Av. Circunvalación Mz. A Lote 1</td>
+            <td>Bodega Naisha</td>
+          </tr>
+          <tr>
+            <td>6.A.H. Consuelo de Velasco Calle Los Alamos Mz. S Lt. 23 B</td>
+            <td>Karly Cochachi García Web</td>
+          </tr>
+          <tr>
+            <td>7.A.H. Jorge Basadre Mz D Lt 26</td>
+            <td>Negocios Puelles</td>
+          </tr>
+          <tr>
+            <td>8.Urb. Los Ficus Av. Marcavelica Mz. J Lt. 09</td>
+            <td>Librería Julissa</td>
+          </tr>
+          <tr>
+            <td>9.Urb. Los Ficus Mz. G1 Lote 16</td>
+            <td>Bodega Mercadito</td>
+          </tr>
+          <tr>
+            <td>10.Urb. Las Casuarinas de Piura I Etapa Mz. F1 Lt. 14</td>
+            <td>Koala Mart</td>
+          </tr>
+          <tr>
+            <td>11.A.H. Micaela Bastidas Mz F3 Lt 13</td>
+            <td>Juan Alberto Rosas Pozo</td>
+          </tr>
+          <tr>
+            <td>12.A.H. San Sebastián Av. Grau Modulo V Mz. B Lt. 5</td>
+            <td>Agente Kenny y Gabriel</td>
+          </tr>
+          <tr>
+            <td>13.APV. Mariscal Avelino Cáceres Mz A Lt. 4</td>
+            <td>Bodeguita Alejita</td>
+          </tr>
+          <tr>
+            <td>14.Av. Micaela Bastidas Mz. K Lt. 31 Enace I Etapa</td>
+            <td>Bodeguita Dylan</td>
+          </tr>
+          <tr>
+            <td>15.A.H. Los Ángeles Mz. C Lt. 14</td>
+            <td>Comercial Mía</td>
+          </tr>
+          <tr>
+            <td>16.Mz. I Lt. 25 Upis. Pueblo Libre Sector Los Claveles</td>
+            <td>Librería Bazar Na y Ya</td>
+          </tr>
+        </table>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Castilla -->
+  <div class="modal-custom" id="modal-custom-castilla">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Castilla</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Castilla</th>
+          </tr>
+          <tr>
+            <td>1.Av. Ramón Castilla Nro. 120 Int. 1-B</td>
+            <td>Multiservicios Pérez</td>
+          </tr>
+          <tr>
+            <td>2.Plazuela Ramón Castilla</td>
+            <td>Dac Valmed</td>
+          </tr>
+          <tr>
+            <td>3.Calle Tacna 138 Sector Castilla</td>
+            <td>Castillo Águila Luis Alberto</td>
+          </tr>
+          <tr>
+            <td>4.Calle Libertad Nro. 806</td>
+            <td>Ubillus Castillo Josué Antonio</td>
+          </tr>
+          <tr>
+            <td>5.Jr. Hipólito Unanue 610 Int 01</td>
+            <td>Multiservicios Raúl Fernando</td>
+          </tr>
+          <tr>
+            <td>6.Exterior Mercado Castilla Tda 14 San Martín s/n</td>
+            <td>Lilyana Medalid Purizaga Popuche Web</td>
+          </tr>
+          <tr>
+            <td>7.A.H. 28 de Julio Mz. B Lt. 14</td>
+            <td>Agente Angie</td>
+          </tr>
+          <tr>
+            <td>8.A.H. Talarita Av. Progreso Nro. 1013</td>
+            <td>Servicios y Representaciones Talarita</td>
+          </tr>
+          <tr>
+            <td>9.A.H. Campo Polo Av. Grau Nro. 1652</td>
+            <td>Bodega Cicy</td>
+          </tr>
+          <tr>
+            <td>10.A.H. Campo Polo Calle Garcilazo de La Vega Nro. 402</td>
+            <td>Gladys Peña Luna Web</td>
+          </tr>
+          <tr>
+            <td>11.A.H. El Indio Mz. G-2 Lote 16</td>
+            <td>La Casa de la Cerveza</td>
+          </tr>
+          <tr>
+            <td>12.A.H. El Indio Calle H1 Lote 71</td>
+            <td>Suárez Tinoco Diego Orlando</td>
+          </tr>
+          <tr>
+            <td>13.Urb. 15 de Setiembre Mz. L Lt. 17</td>
+            <td>Negocios Estrellita</td>
+          </tr>
+          <tr>
+            <td>14.A.H. María Goretti Mz. Q Lt. 08</td>
+            <td>Bodega Susana Vílchez</td>
+          </tr>
+          <tr>
+            <td>15.A.H. Los Médanos Lt. 31</td>
+            <td>Bodega Haydeé</td>
+          </tr>
+          <tr>
+            <td>16.A.H. Los Libertadores Mz. S1 Lt. 6</td>
+            <td>Bodega Jhossy</td>
+          </tr>
+          <tr>
+            <td>17.A.H. Las Mercedes - Mz. F Lt. 09</td>
+            <td>Multiservicios Socorro</td>
+          </tr>
+          <tr>
+            <td>18.A.H. Las Mercedes Mz. A Lt. 27</td>
+            <td>Bodega Milagritos</td>
+          </tr>
+          <tr>
+            <td>19.Caserío Terela Medio Piura S/n</td>
+            <td>Luis Eduardo Panta Reto</td>
+          </tr>
+          <tr>
+            <td>20.Caserío Chapairá Calle Principal N° 182</td>
+            <td>Inversiones Dennys</td>
+          </tr>
+          <tr>
+            <td>21.Caserío San Rafael Calle Dos</td>
+            <td>Bodeguita "Emmanuel"</td>
+          </tr>
+        </table>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Catacaos -->
+  <div class="modal-custom" id="modal-custom-catacaos">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Catacaos</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Catacaos</th>
+          </tr>
+          <tr>
+            <td>1.Jr. Trujillo Nro. 204</td>
+            <td>Locutorios Ángel Amaral</td>
+          </tr>
+          <tr>
+            <td>2.Jr. Mariano Díaz Nro. 106</td>
+            <td>Bodeguita Mi Panchito</td>
+          </tr>
+          <tr>
+            <td>3.Av. Principal s/n La Legua Catacaos</td>
+            <td>Bodega Mi Cinthia</td>
+          </tr>
+        </table>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Bellavista de la Unión -->
+  <div class="modal-custom" id="modal-custom-bellavista-de-la-union">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Bellavista de la Unión</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">La Unión</th>
+          </tr>
+          <tr>
+            <td>1.Calle Cajamarca Nro. 985</td>
+            <td>Alex Junior Chávez Ipanaqué</td>
+          </tr>
+          <tr>
+            <td>2.Lizeth Yolanda Alvarez Padilla</td>
+            <td>El Carmen</td>
+          </tr>
+          <tr>
+            <td>3.Jr. La Unión Nro. 405</td>
+            <td>JFL Multiservicios del Norte E.I.R.L.</td>
+          </tr>
+          <tr>
+            <td>4.Av. Lima N° 467</td>
+            <td>Agencia de la Unión</td>
+          </tr>
+        </table>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Paita parte Alta -->
+  <div class="modal-custom" id="modal-custom-paita">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Paita parte Alta</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Paita</th>
+          </tr>
+          <tr>
+            <td>1.Av. Victor Raúl Haya de La Torre Mz. A Lt. 23</td>
+            <td>Western Union (Caja Paita)</td>
+          </tr>
+          <tr>
+            <td>2.Jr. Nueva Esperanza Pasaje La Merced Mz. C Lt. 35</td>
+            <td>Panadería Mi Camuchita</td>
+          </tr>
+          <tr>
+            <td>3.Av. Francisco Bolognesi Mz. N Lt. 14 A.H. Marco Jara I Etapa</td>
+            <td>Librería y Servicios Cielo y Mar</td>
+          </tr>
+          <tr>
+            <td>4.A.H. Marco Jara Mz. X Lt. 13</td>
+            <td>Negocios y Servicios Generales KM</td>
+          </tr>
+          <tr>
+            <td>5.A.H. Marco Jara II Etapa Mz. B2 Lt. 3</td>
+            <td>Ferretería San José</td>
+          </tr>
+          <tr>
+            <td>6.A.H. Las Mercedes Mz. Lt. 31</td>
+            <td>Lunita</td>
+          </tr>
+          <tr>
+            <td>7.A.H. Las Mercedes Av. Víctor Raúl Mz. A Lt. 25</td>
+            <td>Heavenly Father</td>
+          </tr>
+          <tr>
+            <td>8.Mz. C Lt. 11 A.H. San Francisco</td>
+            <td>Multiservicios Joao</td>
+          </tr>
+          <tr>
+            <td>9.A.H. Las Mercedes Mz. A Lt. 25 Sección B</td>
+            <td>Pingo Chiroque Sandy Milagros</td>
+          </tr>
+          <tr>
+            <td>10.A.H. 5 de Febrero Mz F Lt 13</td>
+            <td>Yanina Criollo Rosales</td>
+          </tr>
+          <tr>
+            <td>11.Av Victor Raúl Haya de La Torre Mz. F1 Lt. 8 A.H. 5 de Febrero</td>
+            <td>Casa Phone</td>
+          </tr>
+          <tr>
+            <td>12.A.H. Juan Valer Sandoval Mz. V Lt. 10</td>
+            <td>Multiservicios Yozanmics</td>
+          </tr>
+          <tr>
+            <td>13.Ciudad Roja Mz. J1 Lt. 9</td>
+            <td>Bazar Librería J Y G</td>
+          </tr>
+          <tr>
+            <td>14.Mz. E1 Lt. 11</td>
+            <td>Negocios Landeo 1</td>
+          </tr>
+          <tr>
+            <td>15.Ciudad Blanca del Pescador Mz. R Lt. 24</td>
+            <td>Librería Perla y Leslie</td>
+          </tr>
+          <tr>
+            <td>16.Ciudad Blanca del Pescador Mz. G2 Lt 13</td>
+            <td>Arévalo Herrera Luis Alexander</td>
+          </tr>
+          <tr>
+            <td>17.Villa Los Algarrobos Mz. G Lote. 02</td>
+            <td>Bodega John Evans</td>
+          </tr>
+          <tr>
+            <td>18.Urb. Isabel Barreto II Etapa Mz. B Lt. 10</td>
+            <td>Tienda Mi Grisell</td>
+          </tr>
+          <tr>
+            <td>19.Urb. Isabel Barreto Mz. B Lt. 12 Av. Fonavi I Etapa</td>
+            <td>San Juan Bautista</td>
+          </tr>
+          <tr>
+            <td>20.Villa Los Algarrobos Mz. G Lt. 08 Anexo Comunal</td>
+            <td>Librería Bazar JGY</td>
+          </tr>
+          <tr>
+            <td>21.Jr. Bolívar Nro. 469</td>
+            <td>Librería Sayma</td>
+          </tr>
+          <tr>
+            <td>22.Jr. Zanjón Nro. 580</td>
+            <td>Marita Juguería Snack</td>
+          </tr>
+          <tr>
+            <td>23.Jr. Zanjón Nro. 108</td>
+            <td>Negocios Móviles Komunikt</td>
+          </tr>
+          <tr>
+            <td>24.Jr. Zanjón Nro. 120</td>
+            <td>Apuesta Total</td>
+          </tr>
+          <tr>
+            <td>25.Jr. Zanjón Nro. 606</td>
+            <td>Comercial Ruíz</td>
+          </tr>
+          <tr>
+            <td>26.Jr. Independencia 178</td>
+            <td>Hospedaje Virgen de la Puerta</td>
+          </tr>
+          <tr>
+            <td>27.Jr. Los Jazmines Nro. 212</td>
+            <td>María Ignacia Jiménez Ato</td>
+          </tr>
+          <tr>
+            <td>28.Jr. Correo Nro. 200</td>
+            <td>Yanina Criollo Rosales</td>
+          </tr>
+          <tr>
+            <td>29.Jr. Mercado Nro. 101</td>
+            <td>Yanina Criollo Rosales</td>
+          </tr>
+          <tr>
+            <td>30.Jr. Bolívar Nro. 101</td>
+            <td>Yanina Criollo Rosales</td>
+          </tr>
+          <tr>
+            <td>31.Jr. Aduana Nro. 160 Centro Paita Baja</td>
+            <td>Bodega Mi Frianita</td>
+          </tr>
+          <tr>
+            <td>32.Jr. Argentina Mz. A Lote 18</td>
+            <td>Bazar Dios Mío</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de El Arenal -->
+  <div class="modal-custom" id="modal-custom-el-arenal">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de El Arenal</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">El Arenal</th>
+          </tr>
+          <tr>
+            <td>1.Calle Grau Nro. 111</td>
+            <td>Soporte Técnico Marbrayam</td>
+          </tr>
+          <tr>
+            <td>2.Caserío Tablazo Av. Los Almendros Mz. C Lt. 8</td>
+            <td>Servicios Majho</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Amotape -->
+  <div class="modal-custom" id="modal-custom-amotape">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Amotape</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Amotape</th>
+          </tr>
+          <tr>
+            <td>1.Calle Simón Rodríguez s/n Centro Poblado El Tambo</td>
+            <td>Comercial Yaminet</td>
+          </tr>
+          <tr>
+            <td>2.Calle Bolívar Nro. 220</td>
+            <td>Bodeguita San Judas Tadeo (Agente Multired)</td>
+          </tr>
+          <tr>
+            <td>3.Calle Panamericana s/n</td>
+            <td>Servicios Generales Charito (Agente Multired)</td>
+          </tr>
+          <tr>
+            <td>4.Caserío El Tambo s/n Calle Amotape Nro. 235</td>
+            <td>Servicios Generales Charito</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de La Huaca -->
+  <div class="modal-custom" id="modal-custom-la-huaca">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de La Huaca</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">La Huaca</th>
+          </tr>
+          <tr>
+            <td>1.Av. Leoncio Prado s/n</td>
+            <td>Agente Banco de Nación</td>
+          </tr>
+          <tr>
+            <td>2.Av. Leoncio Prado s/n</td>
+            <td>Agente Caja Sullana</td>
+          </tr>
+          <tr>
+            <td>3.Calle La Cruz s/n</td>
+            <td>Agente Banco de Nación</td>
+          </tr>
+          <tr>
+            <td>4.Calle Ferrocarril s/n</td>
+            <td>Agente Caja Piura</td>
+          </tr>
+          <tr>
+            <td>5.Calle Miguel Grau</td>
+            <td>Bodeguita Mi Karime (Agente Caja Piura)</td>
+          </tr>
+          <tr>
+            <td>6.Calle Ferreiros s/n</td>
+            <td>Bodeguita Mi Coquito (Agente Servis Norte)</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Vichayal -->
+
+  <div class="modal-custom" id="modal-custom-vichayal">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Vichayal</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Vichayal</th>
+          </tr>
+          <tr>
+            <td>1.Calle Talara Nro. 405</td>
+            <td>Bodeguita Mi Gemela(Agente Banco de Crédito)</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Tamarindo -->
+  <div class="modal-custom" id="modal-custom-tamarindo">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Tamarindo</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Tamarindo</th>
+          </tr>
+          <tr>
+            <td>1.Calle Sánchez Cerro Mz. 24 Lt. 7 Sector La Libertad</td>
+            <td>Negocios Generales Milagros(Agente Caja Piura- Caja Sullana - Multired)</td>
+          </tr>
+          <tr>
+            <td>2.Calle Sánchez Cerro s/n</td>
+            <td>Agente Banco de la Nación - Caja Sullana</td>
+          </tr>
+          <tr>
+            <td>3.Calle Sánchez Cerro s/n</td>
+            <td>Agente de Banco de Crédito</td>
+          </tr>
+          <tr>
+            <td>4.Calle Bolívar s/n</td>
+            <td>Negocios y Servicios Ayrton</td>
+          </tr>
+          <tr>
+            <td>5.Calle Constitución N° 34</td>
+            <td>Tienda de Abarrotes Mis Gemelas (Kasnet)</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Ignacio Escudero -->
+
+  <div class="modal-custom" id="modal-custom-ignacio-escudero">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Ignacio Escudero</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Ignacio Escudero</th>
+          </tr>
+          <tr>
+            <td>1.Av. Panamericana Antigua s/n</td>
+            <td>Agente Banco de la Nación</td>
+          </tr>
+          <tr>
+            <td>2.Calle Panamericana Nro. 360</td>
+            <td>Bazar Ashley (Agente BCP)</td>
+          </tr>
+          <tr>
+            <td>3.Av. Panamericana s/n</td>
+            <td>Tienda Clínica del Celular (Agente Servipago Norte)</td>
+          </tr>
+          <tr>
+            <td>4.Calle San Martín Nro. 135</td>
+            <td>Tienda Multiventas Luz (Agente Caja Sullana)</td>
+          </tr>
+          <tr>
+            <td>5.Calle San Jacinto</td>
+            <td>Bazar Comercial Marijo (Agente Banco de la Nación)</td>
+          </tr>
+          <tr>
+            <td>6.Bazar Gianella</td>
+            <td>Agente Banco de Crédito</td>
+          </tr>
+          <tr>
+            <td>7.Calle Puno s/n San Juan de la Virgen</td>
+            <td>Agente Vendemás - Bodeguita Mi Charrapita</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Colán -->
+
+  <div class="modal-custom" id="modal-custom-colan">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Colán</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Colán</th>
+          </tr>
+          <tr>
+            <td>1.Calle Bolognesi Nro. 131 San Lucas de Colán</td>
+            <td>Servicios de Cobranza Tato - Aplicativos Mediante Móvil</td>
+          </tr>
+          <tr>
+            <td>2.Av. Costanera s/n</td>
+            <td>Bodega El Maná Leticia Chuna de Flores(Agente Banco de la Nación - Continental)</td>
+          </tr>
+          <tr>
+            <td>3.Av. La Esmeralda Colán Mz. G</td>
+            <td>Bodega y Hospedaje Mario Haaron (Agente Caja Piura)</td>
+          </tr>
+          <tr>
+            <td>4.Av. Costanera s/n La Esmeralda de Colán</td>
+            <td>Flores Lama Benito</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Sechura -->
+  <div class="modal-custom" id="modal-custom-sechura">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Sechura</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Sechura</th>
+          </tr>
+          <tr>
+            <td>1.Av. Parachique Mz. 2 Lt. 08 Sector Nuevo Parachique</td>
+            <td>Servicios Generales Ayfer</td>
+          </tr>
+          <tr>
+            <td>2.Calle San Sebastián Nro. 175 Sector Nuevo Parachique</td>
+            <td>Librería Bazar Mi Ivancito</td>
+          </tr>
+          <tr>
+            <td>3.Calle Bolívar Nro. 426</td>
+            <td>Proveeduría Señor de Los Milagros</td>
+          </tr>
+          <tr>
+            <td>4.Calle San Martín Nro. 400</td>
+            <td>Inversiones Ensura S.A.C.</td>
+          </tr>
+          <tr>
+            <td>5.Calle San Martín Nro. 528 Parachique</td>
+            <td>Tiendita Luis Gustavo</td>
+          </tr>
+          <tr>
+            <td>6.Calle César Pinglo Nro. 500</td>
+            <td>Apuesta Total</td>
+          </tr>
+          <tr>
+            <td>7.Calle 2 Zona Industrial Nro. 220</td>
+            <td>Mi Cautivo</td>
+          </tr>
+          <tr>
+            <td>8.A.H. Víctor Raúl Calle Los Laureles Mz. C Lt. 2</td>
+            <td>Librería Edita</td>
+          </tr>
+          <tr>
+            <td>9.A.H. Víctor Raúl Los Pinos Mz. G Lt. 14</td>
+            <td>Ventas y Servicios Grles. "Atalaya”</td>
+          </tr>
+          <tr>
+            <td>10.A.H. Nuevo Amanecer Mz. D Lt15</td>
+            <td>Kamil Nicolle II</td>
+          </tr>
+          <tr>
+            <td>11.A.H. Vicente Chunga Aldana Mz. Ñ Lt. 21</td>
+            <td>Recargas Mi Buen Jesús</td>
+          </tr>
+          <tr>
+            <td>12.A.H. Los Jardines II Calle N Mz. D Lt. 26</td>
+            <td>Mi Cautivo</td>
+          </tr>
+          <tr>
+            <td>13.A.H. Nuevo Horizonte Calle 2 Mz. J Lt. 2</td>
+            <td>Librería Cruz de Motupe</td>
+          </tr>
+          <tr>
+            <td>14.A.H. La Florida Mz. I Lote 12 Calle Ayabaca</td>
+            <td>Rinomotors PC</td>
+          </tr>
+          <tr>
+            <td>15.A.H. La Florida Mz. A Lt. 23 Calle Talara</td>
+            <td>Confecciones Mirufi</td>
+          </tr>
+        </table>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de El Rinconada Llicuar -->
+  <div class="modal-custom" id="modal-custom-el-rinconada-llicuar">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de El Rinconada Llicua</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Rinconada Llicuar</th>
+          </tr>
+          <tr>
+            <td>1.Av. Perú Nro. 379</td>
+            <td>Multiservicios Lucero y Estrellita</td>
+          </tr>
+          <tr>
+            <td>2.Av. Perú Nro. 632</td>
+            <td>Bazar Mi Cautivo</td>
+          </tr>
+        </table>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Bernal -->
+  <div class="modal-custom" id="modal-custom-bernal">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Bernal</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Bernal</th>
+          </tr>
+          <tr>
+            <td>1.Calle Comercio Nro. 71 Int. 07</td>
+            <td>Mini Market Estrellita y Frank</td>
+          </tr>
+          <tr>
+            <td>2.Jr. San Francisco Nro. 345</td>
+            <td>Bodeguita La Providencia del Señor</td>
+          </tr>
+          <tr>
+            <td>3.Jr. Amazonas Nro. 47 Int. 04</td>
+            <td>Negocios Juymi</td>
+          </tr>
+        </table>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Cristo Nos Valga -->
+  <div class="modal-custom" id="modal-custom-cristo-nos-valga">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Cristo Nos Valga</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Cristo Nos Valga</th>
+          </tr>
+          <tr>
+            <td>1.Calle San Martín s/n</td>
+            <td>Tienda de Abarrotes Jhoel</td>
+          </tr>
+        </table>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Vice -->
+  <div class="modal-custom" id="modal-custom-vice">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Vice</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Vice</th>
+          </tr>
+          <tr>
+            <td>1.Av. Miguel F. Cerro Nro. 225 Centro Vice</td>
+            <td>Negocios y Servicios Generales</td>
+          </tr>
+          <tr>
+            <td>2.Centro Poblado La Tortuga Mz. 31 Lt. 02</td>
+            <td>Cabinas Jhon Kelvin</td>
+          </tr>
+          <tr>
+            <td>3.Calle 3 Mayo A3 Mz. 6 Lt. 13</td>
+            <td>María Panta Panta Web</td>
+          </tr>
+        </table>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de La Arena -->
+  <div class="modal-custom" id="modal-custom-la-arena">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de La Arena</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">La Arena</th>
+          </tr>
+          <tr>
+            <td>1.Mz. A Lt. 8 Nuevo Alto de los Mores</td>
+            <td>La Casita Mobiles Shop</td>
+          </tr>
+          <tr>
+            <td>2.Calle Comercio Nro. 0924</td>
+            <td>Rogelio Chero Sosa</td>
+          </tr>
+        </table>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de La Unión -->
+  <div class="modal-custom" id="modal-custom-la-union">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de La Unión</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">La Unión</th>
+          </tr>
+          <tr>
+            <td>1.Calle Cajamarca Nro. 985</td>
+            <td>Alex Junior Chávez Ipanaqué</td>
+          </tr>
+          <tr>
+            <td>2.Lizeth Yolanda Alvarez Padilla</td>
+            <td>El Carmen</td>
+          </tr>
+          <tr>
+            <td>3.Jr. La Unión Nro. 405</td>
+            <td>JFL Multiservicios del Norte E.I.R.L.</td>
+          </tr>
+        </table>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de El Tallán -->
+  <div class="modal-custom" id="modal-custom-el-tallan">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de El Tallán</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">El Tallán</th>
+          </tr>
+          <tr>
+            <td>1.Calle Juan de Mori</td>
+            <td>José Alexander More More</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Talara Zona  -->
+  <div class="modal-custom" id="modal-custom-talara">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Talara Zona </h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Talara</th>
+          </tr>
+          <tr>
+            <td>1.Av. Grau Mz. A Lt. 79 A (frente Centro Cívico)</td>
+            <td>Apuesta Total</td>
+          </tr>
+          <tr>
+            <td>2.Av. B-46</td>
+            <td>Servicios Generales "Lilibell"</td>
+          </tr>
+          <tr>
+            <td>3.Av. Bolognesi B-54 Lateral</td>
+            <td>Fotocopias "Shin"</td>
+          </tr>
+          <tr>
+            <td>4.Av. B-127 La Tortuga</td>
+            <td>"Talesh" Multiservicios</td>
+          </tr>
+          <tr>
+            <td>5.Av. D-14 (frente a La Curacao)</td>
+            <td>Corp. Empresarial de Cobranza S.R.L.</td>
+          </tr>
+          <tr>
+            <td>6.A.H. San Pedro Mz. F Lt. 14</td>
+            <td>Bodega "April"</td>
+          </tr>
+          <tr>
+            <td>7.A.H. San Pedro Mz. N Lt. 3</td>
+            <td>Agente "Kahel"</td>
+          </tr>
+          <tr>
+            <td>8.A.H. Las Mercedes A -16</td>
+            <td>Servicios Grles. "Bendición de Dios"</td>
+          </tr>
+          <tr>
+            <td>9.Parque 64 - 06 Talara</td>
+            <td>Librería "Sagittarius"</td>
+          </tr>
+          <tr>
+            <td>10.Mercado Modelo La Parada - Kiosko Int. F 21</td>
+            <td>Comercial "María Elena"</td>
+          </tr>
+          <tr>
+            <td>11.Anexo Mercado Central Tda. Nro. 8</td>
+            <td>Supertienda</td>
+          </tr>
+          <tr>
+            <td>12.Lt. Central C-01 (Abastecimiento Central)</td>
+            <td>Locutorio "Fanisa"</td>
+          </tr>
+          <tr>
+            <td>13.Av. A Nro. 100 (cerca al parque)</td>
+            <td>Comercial "Maia”</td>
+          </tr>
+          <tr>
+            <td>14.A.H. Abelardo Quiñones Mz. R1 Lt. 15</td>
+            <td>"Fotocopiadora "Mi Lucas"</td>
+          </tr>
+          <tr>
+            <td>15.A.H. José Abelardo Quiñonez Mz. M Lt. 21</td>
+            <td>Agente "Stiwar"</td>
+          </tr>
+          <tr>
+            <td>16.A.H. Jorge Chávez Nro. 1 Int. 01</td>
+            <td>"Crisleyt" Librería Bazar Regalos</td>
+          </tr>
+          <tr>
+            <td>17.A.H. 7 de Junio Mz. C Lt. 20</td>
+            <td>Tienda Comercial "Cinthia"</td>
+          </tr>
+          <tr>
+            <td>18.A.H. Los Ficus Ampliación Mz. C Lt. 10 Pariñas</td>
+            <td>Bazar Librería "Fadri"</td>
+          </tr>
+          <tr>
+            <td>19.A.H. Nuevo Horizonte Mz. I1 Lt. 23</td>
+            <td>Servicios Generales "Dios provee"</td>
+          </tr>
+          <tr>
+            <td>20.A.H. Nuevo Horizonte Mz. G1 Lt. 20</td>
+            <td>Bodeguita Mi Hielito</td>
+          </tr>
+          <tr>
+            <td>21.A.H. San Sebastián Mz. C1 Lt. 22</td>
+            <td>Comercial Mafer</td>
+          </tr>
+          <tr>
+            <td>22.Urb. Castro Pozo Mz. Z Lt. 3</td>
+            <td>Tienda "Joán"</td>
+          </tr>
+          <tr>
+            <td>23.Urb. Felipe Santiago Salaverry Mz. C1 Lt. 26 II Etapa</td>
+            <td>Librería Bazar "Crisleyt"</td>
+          </tr>
+          <tr>
+            <td>24.Urb. Felipe Santiago Salaverry Mz. H1 Lt. 07</td>
+            <td>Comercial N & M</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Talara Zona Alta -->
+  <div class="modal fade bs-example-modal-lg talara-2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+              aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel"> Distrito de Talara Zona Alta </h4>
+        </div>
+        <div class="modal-body">
+          <th colspan="2" style="text-align: center;">Talara</th>
+          Distrito de Talara Zona Alta
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Distrito de Lobitos -->
+  <div class="modal-custom" id="modal-custom-lobitos">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Lobitos</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Lobitos</th>
+          </tr>
+          <tr>
+            <td>1.Lobitos Barrio Primavera Mz. A Lt. 8</td>
+            <td>Luzmila Jacinto Bayona</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de El Alto -->
+  <div class="modal-custom" id="modal-custom-el-alto">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de El Alto</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">El Alto</th>
+          </tr>
+          <tr>
+            <td>1.Av. Bolognesi Mz. S Interior 12</td>
+            <td>Negocios "Kayro”</td>
+          </tr>
+          <tr>
+            <td>2.Av. Bolognesi Mz. E Lt. 15</td>
+            <td>Servicios "Chero"</td>
+          </tr>
+          <tr>
+            <td>3.Barrio Castro Pozo Calle 12 Nro. 19 Int. 02</td>
+            <td>Bazar Librería "Geylu”</td>
+          </tr>
+          <tr>
+            <td>4.Barrio El Volante Calle Nro. 1321 Int. 01</td>
+            <td>Tienda "Mi Javier"</td>
+          </tr>
+          <tr>
+            <td>5.A.H. Primavera Mz. D Lt. 4</td>
+            <td>Ruth Quiroga Garcés</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+  <!-- Distrito de Los Órganos -->
+  <div class="modal-custom" id="modal-custom-los-organos">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Los Órganos</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Los Órganos</th>
+          </tr>
+          <tr>
+            <td>1.Barrio San Antonio Calle 4 Nro. 1013</td>
+            <td>Bodega Chris Fany</td>
+          </tr>
+          <tr>
+            <td>2.A.H. San Martín Calle Avellaneda Mz. D Lt. 08</td>
+            <td>Mega Cositas D ́Clar</td>
+          </tr>
+          <tr>
+            <td>3.Calle 1 Nro. 1004</td>
+            <td>Ferretería Pelíkano</td>
+          </tr>
+          <tr>
+            <td>4.Mercado Central Los Tallanes Int. 33</td>
+            <td>Bodega Mi Fabiana</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Máncora -->
+  <div class="modal-custom" id="modal-custom-mancora">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Máncora</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Máncora</th>
+          </tr>
+          <tr>
+            <td>1.Av. Piura Nro. 509</td>
+            <td>Roviluz</td>
+          </tr>
+          <tr>
+            <td>2.Av. Grau Nro. 601</td>
+            <td>Negocios Ruth E.I.R.L.</td>
+          </tr>
+          <tr>
+            <td>3.Calle Paita Nro. 153</td>
+            <td>Cyber Cafe D ́Shopy</td>
+          </tr>
+          <tr>
+            <td>4.Barrio Leticia Calle Primavera Mz. 6 Lt. 8 B</td>
+            <td>Multiservicios Jhialesk</td>
+          </tr>
+          <tr>
+            <td>5.Centro Poblado Nicaragua Calle C Nro. 104</td>
+            <td>Negocios Compukar</td>
+          </tr>
+          <tr>
+            <td>6.Grifo Pelíkano</td>
+            <td>Negocios Pelíkano</td>
+          </tr>
+          <tr>
+            <td>7.Calle Los Incas Nro. 220-1</td>
+            <td>Negocios Dylan</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- distrito de sullana -->
+  <div class="modal-custom" id="modal-custom-sullana">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de sullana</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr>
+      <div class="modal-custom__content">
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingOne">
+              <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Centro de Sullana
+                </a>
+              </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+              <div class="panel-body">
+                <table class="table table-striped success">
+                  <tr>
+                    <th colspan="2" style="text-align: center;">Sullana</th>
+                  </tr>
+                  <tr>
+                    <td>1.Transversal Lima 421</td>
+                    <td>Claro</td>
+                  </tr>
+                  <tr>
+                    <td>2.Calle Grau 753</td>
+                    <td>Evolution Salón & Spa</td>
+                  </tr>
+                  <tr>
+                    <td>3.Calle Bolognesi 261</td>
+                    <td>Electrónica El Milagro</td>
+                  </tr>
+                  <tr>
+                    <td>4.Calle San Martín 958</td>
+                    <td>Apuesta Total</td>
+                  </tr>
+                  <tr>
+                    <td>5.Calle San Martín 453</td>
+                    <td>Imprenta América</td>
+                  </tr>
+                  <tr>
+                    <td>6.Calle San Martín 732 Int A3</td>
+                    <td>Servicios Generales Moreno</td>
+                  </tr>
+                  <tr>
+                    <td>7.Calle San Martín 550</td>
+                    <td>Procesos Y Soluciones Informáticas</td>
+                  </tr>
+                  <tr>
+                    <td>8.Calle San Martín 1200</td>
+                    <td>Negocios Wanchen</td>
+                  </tr>
+                  <tr>
+                    <td>9.Cal. San Martín Nro. 477</td>
+                    <td>Servicios Generales J & J</td>
+                  </tr>
+                  <tr>
+                    <td>10.Av. José de Lama 382</td>
+                    <td>Fresh Fruit</td>
+                  </tr>
+                  <tr>
+                    <td>11.Av. José de Lama 798</td>
+                    <td>Comercial Godos</td>
+                  </tr>
+                  <tr>
+                    <td>12.Av Santa Rosa 201</td>
+                    <td>Tay Muy</td>
+                  </tr>
+                  <tr>
+                    <td>13.Calle Lima Nro. 569</td>
+                    <td>San Lorenzo Produce S.A.C.</td>
+                  </tr>
+                  <tr>
+                    <td>14.Calle Junin Nro. 317</td>
+                    <td>Centro De Copiado Roland</td>
+                  </tr>
+                  <tr>
+                    <td>15.Prolong. José De Lama Mza. E Lote. 20</td>
+                    <td>Multiservicios Triple A Ii</td>
+                  </tr>
+                  <tr>
+                    <td>16.Av José De Lama 127</td>
+                    <td>Servicios Generales Moreno</td>
+                  </tr>
+                  <tr>
+                    <td>17.Calle Ugarteche 400</td>
+                    <td>Comercial Dianita</td>
+                  </tr>
+                  <tr>
+                    <td>18.Calle Alfonso Ugarte 630 a</td>
+                    <td>Minimarket Fresh</td>
+                  </tr>
+                  <tr>
+                    <td>19.Calle Sucre 1013</td>
+                    <td>Bodega Lanao</td>
+                  </tr>
+                  <tr>
+                    <td>20.Calle Ugarte 944</td>
+                    <td>Paulini Sánchez Carmen María</td>
+                  </tr>
+                  <tr>
+                    <td>21.Av. José de Lama 382</td>
+                    <td>Fresh Fruit</td>
+                  </tr>
+                  <tr>
+                    <td>22.Av. José de Lama 468</td>
+                    <td>Multiservicios C&a</td>
+                  </tr>
+                  <tr>
+                    <td>23.03 Calle Cuatro 623 12</td>
+                    <td>Bodeguita Fernando Y Ronald</td>
+                  </tr>
+                  <tr>
+                    <td>24.Calle Bolognesi Nro. 339 Centro De Sullana Int. A</td>
+                    <td>Ferretería Panchito</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingTwo">
+              <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
+                  aria-expanded="false" aria-controls="collapseTwo">
+                  Urbanizaciones
+                </a>
+              </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+              <div class="panel-body">
+                <table class="table table-striped success">
+                  <tr>
+                    <th colspan="2" style="text-align: center;">URB. Santa Rosa – URB. Las Colinas del Chira</th>
+                  </tr>
+                  <tr>
+                    <td>1.Calle Santa Teresa 204 Urb Santa Rosa</td>
+                    <td>Tienda Mi Enriqueta</td>
+                  </tr>
+                  <tr>
+                    <td>2.Calle Santa Teresa 807 Urb Santa Rosa</td>
+                    <td>Bazar Librería Carito</td>
+                  </tr>
+                  <tr>
+                    <td>3.Cal. El Rosario Mz A Lte 16 Urb. Santa Rosa</td>
+                    <td>Bodega Mi Briggitte</td>
+                  </tr>
+                  <tr>
+                    <td>4.Cal. San Carlos I Etapa Mza. D Lote. 11 Urb. Santa Rosa</td>
+                    <td>Inversiones Generales CyS</td>
+                  </tr>
+                  <tr>
+                    <td>5.Calle El Rosario Nro. 601 A Urb. P. Santa Rosa</td>
+                    <td>Copias Y Tipeos Linda</td>
+                  </tr>
+                  <tr>
+                    <td>6.Calle Santo Toribio Nro. 105 Urb. Santa Rosa</td>
+                    <td>Pensión Hospedaje La Villa</td>
+                  </tr>
+                  <tr>
+                    <td>7.Calle El Alto 1041 Urb Santa Rosa</td>
+                    <td>Arellano S Tu Bodega</td>
+                  </tr>
+                  <tr>
+                    <td>8.Calle El Carmen 898 Urb Santa Rosa</td>
+                    <td>Bodega Elizabeth</td>
+                  </tr>
+                  <tr>
+                    <td>9.Calle Santa Ana 491 Urb Santa Rosa</td>
+                    <td>Bodega Laura</td>
+                  </tr>
+                  <tr>
+                    <td>10.Transversal San Miguel 2152 Urb. Santa Rosa</td>
+                    <td>Bodega Rivas Calero Gloria Beatriz</td>
+                  </tr>
+                  <tr>
+                    <td>11.Calle San Hilarión Mz. D Lt. 2 Urb. Santa Rosa</td>
+                    <td>Multiservicios Don Pepe</td>
+                  </tr>
+                  <tr>
+                    <td>12.Mz B2 Lt 09 Urb Las Colinas Del Chira</td>
+                    <td>Bodeguita Jesús Del Gran Poder</td>
+                  </tr>
+                  <tr>
+                    <th colspan="2" style="text-align: center;">URB. Salaverry – URB. Sullana</th>
+                  </tr>
+                  <tr>
+                    <td>1.Mz. O Lt. 13 Ur.b Salaverry</td>
+                    <td>Bodeguita La Urba</td>
+                  </tr>
+                  <tr>
+                    <td>2.Calle Salaverry Mz. P Lt. 38 Urb. Sullana</td>
+                    <td>Comercial Antonela</td>
+                  </tr>
+                  <tr>
+                    <td>3.Urb. Sullana Nro. Q Int. 13</td>
+                    <td>Distribuidora A&b</td>
+                  </tr>
+                  <tr>
+                    <th colspan="2" style="text-align: center;">Asociación Villa María</th>
+                  </tr>
+                  <tr>
+                    <td>1.Calle Luz y Vida Mz. E Lt. 06 Asociación Villa María</td>
+                    <td>Bodega A & A</td>
+                  </tr>
+                  <tr>
+                    <th colspan="2" style="text-align: center;">URB. López Albújar</th>
+                  </tr>
+                  <tr>
+                    <td>1.Av. Marcelino Champagnat Nro. 1020</td>
+                    <td>Madame Fruta Juglería Salón De Té</td>
+                  </tr>
+                  <tr>
+                    <td>2.Mz. E Lt. 30 Urb. Enrique López Albújar I Etapa</td>
+                    <td>Librería Bazar Guadalupe</td>
+                  </tr>
+                  <tr>
+                    <td>3.Mz. M Lt. 12 Urb. Enrique López Albujar I Etapa </td>
+                    <td>Minibazar M y J</td>
+                  </tr>
+                  <tr>
+                    <th colspan="2" style="text-align: center;">Barrio Buenos Aires</th>
+                  </tr>
+                  <tr>
+                    <td>1.Calle Siete Nro. 745 Int. 1</td>
+                    <td>Copias E Impresiones Arantza</td>
+                  </tr>
+                  <tr>
+                    <td>2.Calle Siete Nro. 155</td>
+                    <td>Bazar Detodo</td>
+                  </tr>
+                  <tr>
+                    <td>3.Calle Siete Nro. 214</td>
+                    <td>Multiservicio Nicole</td>
+                  </tr>
+                  <tr>
+                    <td>4.Calle Seis Nro. 772</td>
+                    <td>Minimarket Becerra</td>
+                  </tr>
+                  <tr>
+                    <td>5.Calle Carlos Leigh 530</td>
+                    <td>Bodeguita El Morrito</td>
+                  </tr>
+                  <tr>
+                    <th colspan="2" style="text-align: center;">URB. Ramiro Priale – URB. Isaías Vásquez URB. Nuevo
+                      Horizonte</th>
+                  </tr>
+                  <tr>
+                    <td>1.Mz. C Lt. 19 Apv. Mariano Santos</td>
+                    <td>W & M Servinte & Solutecno E.I.R.L</td>
+                  </tr>
+                  <tr>
+                    <td>2.Mz. K Lt. 18 Urb. Ramiro Prialé 1 Etapa</td>
+                    <td>Librería Bazar P Y D</td>
+                  </tr>
+                  <tr>
+                    <td>3.Av. San Hilarion Mz. A Lt. 01 Urb. Isais Vásquez Morán</td>
+                    <td>La Esquina</td>
+                  </tr>
+                  <tr>
+                    <td>4.Calle San Hilarion Urb. Isaías Vásquez Moran Mz. A Lt. 13</td>
+                    <td>Multiservicios M Y M</td>
+                  </tr>
+                  <tr>
+                    <td>5.Mz. S Lt. 11 Urb. Nuevo Horizonte</td>
+                    <td>Negocios Generales Caddy</td>
+                  </tr>
+                  <tr>
+                    <td>6.Calle Los Tallanes Mz. Y Lt. 30 Urb. Nuevo Horizonte</td>
+                    <td>Bodega Román Chiroque Gely Dari</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingThree">
+              <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"
+                  aria-expanded="false" aria-controls="collapseThree">
+                  Asentamientos Humanos
+                </a>
+              </h4>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+              <div class="panel-body">
+                <table class="table table-striped success">
+                  <tr>
+                    <th colspan="2" style="text-align: center;">A.H. SANTA ROSA</th>
+                  </tr>
+                  <tr>
+                    <td>1.Av. Marcelino Champagnat Nro. 956 A.H. Santa Rosa</td>
+                    <td>Repuestos Pedal</td>
+                  </tr>
+                  <tr>
+                    <td>2.Cal. Santa Ursula Nro. 260 A.H. Santa Rosa</td>
+                    <td>Galaxy Ferretería</td>
+                  </tr>
+                  <tr>
+                    <th colspan="2" style="text-align: center;">A.H. El Obrero - A.H. César Vallejo – A.H. Victorino
+                      Elorz</th>
+                  </tr>
+                  <tr>
+                    <td>1.Calle Santa Cruz 921 A.H. El Obrero</td>
+                    <td>Luis Enrique</td>
+                  </tr>
+                  <tr>
+                    <td>2.Emilio Espinoza 611 A.H. El Obrero</td>
+                    <td>Bodega Mi Deysi</td>
+                  </tr>
+                  <tr>
+                    <td>3.Calle Calvo y Pérez 325 A.H. El Obrero</td>
+                    <td>Milagritos</td>
+                  </tr>
+                  <tr>
+                    <td>4.Calle Orbegoso 119 A.H. El Obrero</td>
+                    <td>Novedades Mayrouss</td>
+                  </tr>
+                  <tr>
+                    <td>5.Calle Miguel Checa Mz. P1 Lt. 18 A.H. El Obrero</td>
+                    <td>El Rinconcito D Liam</td>
+                  </tr>
+                  <tr>
+                    <td>6.Calle Manuel Coloma 102 A.H. El Obrero</td>
+                    <td>Bodeguita Kamila</td>
+                  </tr>
+                  <tr>
+                    <td>7.Av. Circunvalación Nro. 604 A.H. El Obrero</td>
+                    <td>Bazar Valentina</td>
+                  </tr>
+                  <tr>
+                    <td>8.Av. Santa Cruz Nro. 600 A.H. El Obrero</td>
+                    <td>Ventas Y Servicios Del Chira</td>
+                  </tr>
+                  <tr>
+                    <td>9.Av. Santa Cruz 109 A.H. El Obrero</td>
+                    <td>Bodega Diego Nair</td>
+                  </tr>
+                  <tr>
+                    <td>10.Calle General Orbegoso Nro. 407 A.H. El Obrero</td>
+                    <td>Novedades Carlos</td>
+                  </tr>
+                  <tr>
+                    <td>11.Av. Tomas Arellano 106 A.H. El Obrero</td>
+                    <td>Tienda Ericka Paola</td>
+                  </tr>
+                  <tr>
+                    <td>12.Calle Manuel Coloma 1006 A.H. El Obrero</td>
+                    <td>Motorepuesto Macafer</td>
+                  </tr>
+                  <tr>
+                    <td>13.Calle 13 de Diciembre Mz. H Lt 15 A.H. César Vallejo</td>
+                    <td>Multiservicios Gherao</td>
+                  </tr>
+                  <tr>
+                    <td>14.Calle Ignacio Sánchez Mz. H Lt 24 A.H. Victorino Elorz Goicochea</td>
+                    <td>Bodega Sagrado Corazón de Jesús</td>
+                  </tr>
+                  <tr>
+                    <td>15.Pj. Miguel Grau Nro. K Int. 05 A.H. Victorino Elorz</td>
+                    <td>Tienda Mi Yoli</td>
+                  </tr>
+                  <tr>
+                    <th colspan="2" style="text-align: center;">A.H. Santa Teresita</th>
+                  </tr>
+                  <tr>
+                    <td>1.Calle Ricardo Palma Nro. 104</td>
+                    <td>Comercial Reyes</td>
+                  </tr>
+                  <tr>
+                    <td>2.Calle La Brea Nro. 508</td>
+                    <td>Distribuidora Sta. María</td>
+                  </tr>
+                  <tr>
+                    <td>3.Calle Augusto B. Leguía Nro. 345</td>
+                    <td>Tienda De Abarrotes Mi Gaela</td>
+                  </tr>
+                  <tr>
+                    <td>4.Calle La Brea 228</td>
+                    <td>Mi Justín</td>
+                  </tr>
+                  <tr>
+                    <td>5.Trans. Jacinto Hernández Mz. A1 Lt. 8</td>
+                    <td>Comercial Espinoza</td>
+                  </tr>
+                  <tr>
+                    <th colspan="2" style="text-align: center;">A.H. Jesús María – A.H. 9 de Octubre</th>
+                  </tr>
+                  <tr>
+                    <td>1.Calle Ricardo Palma Mz. C3 Lt. 18 A.H. Jesús María</td>
+                    <td>Jhakory & Ámbar</td>
+                  </tr>
+                  <tr>
+                    <td>2.Calle Ricardo Palma Mz. C2 Lt. 05 A.H. Jesús María</td>
+                    <td>Servicios Generales Dios es Amor</td>
+                  </tr>
+                  <tr>
+                    <td>3.Calle San Juan Mz. B Lt. 29 A.H. Jesús María</td>
+                    <td>Maxi Bodega Villa</td>
+                  </tr>
+                  <tr>
+                    <td>4.Calle Ricardo Palma Nro. 1774 A.H. Jesús María 2 Etapa</td>
+                    <td>Bodeguita Mi Leydis</td>
+                  </tr>
+                  <tr>
+                    <td>5.Calle Ricardo Palma Mz. F Lt. 16 A.H. Jesús María</td>
+                    <td>Bodega Milka</td>
+                  </tr>
+                  <tr>
+                    <td>6.Calle San Isidro Mz. A2 Lt. 27 A.H. Jesús María</td>
+                    <td>Ana Karina</td>
+                  </tr>
+                  <tr>
+                    <td>7.Calle San Juan 1105 A.H. 9 De Octubre</td>
+                    <td>Librería Bazar Rosita</td>
+                  </tr>
+                  <tr>
+                    <td>8.Calle Augusto B Leguia Nro. 325 A.H. 9 de Octubre</td>
+                    <td>Bodega El Parquesito</td>
+                  </tr>
+                  <tr>
+                    <td>9.Calle Pariñas Nro. 503 Mz. E5 Lt. 1 A.H. 9 de Octubre</td>
+                    <td>Librería Bazar El Antartico E.I.R.L</td>
+                  </tr>
+                  <tr>
+                    <td>10.Calle Vichayal 824 A.H. 09 de Octubre</td>
+                    <td>Multiventas y Servicios Financieros Lucy</td>
+                  </tr>
+                  <tr>
+                    <th colspan="2" style="text-align: center;">A.H. Sánchez Cerro</th>
+                  </tr>
+                  <tr>
+                    <td>1.Calle Santa Catalina 217 A.H. Sánchez Cerro</td>
+                    <td>Bodega Damaris</td>
+                  </tr>
+                  <tr>
+                    <td>2.Calle Santa Catalina 213 A.H. Sánchez Cerro</td>
+                    <td>Huesma</td>
+                  </tr>
+                  <tr>
+                    <td>3.Calle Santa Rosa Mz. F2 N Lt. 14 A.H. Sánchez Cerro</td>
+                    <td>Bazar Librería Kiara Belén</td>
+                  </tr>
+                  <tr>
+                    <td>4.Calle Santa Elena Mz. C Lt. 32 A.H. Sánchez Cerro</td>
+                    <td>Viera Vargas Sindy</td>
+                  </tr>
+                  <tr>
+                    <th colspan="2" style="text-align: center;">A.H. Villa Primavera</th>
+                  </tr>
+                  <tr>
+                    <td>1.Calle Las Margaritas Mz. D4 Lt. 05 A.H. Villa Primavera IV Etapa</td>
+                    <td>Tienda Mi Dreydi</td>
+                  </tr>
+                  <tr>
+                    <td>2.Calle Los Pinos Mz. A1 Lt. 32 A.H. Villa Primavera</td>
+                    <td>Multiagentes A Y S</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Distrito de Bellavista -->
+  <div class="modal-custom" id="modal-custom-bellavista">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Bellavista</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Bellavista</th>
+          </tr>
+          <tr>
+            <td>1.Calle Jovino Arambulo Nro. 43</td>
+            <td>Bodega y Servicios D ́Torres G & M</td>
+          </tr>
+          <tr>
+            <td>2.Calle Madre de Dios Nro. 796</td>
+            <td>Botiquín y Bazar La Guadalupana</td>
+          </tr>
+          <tr>
+            <td>3.Transversal Morropón Nro. 207</td>
+            <td>Negocios Generales Mi Adrianita</td>
+          </tr>
+          <tr>
+            <td>4.Trasversal Morropón Nro. 300</td>
+            <td>Impresiones Bellavista</td>
+          </tr>
+          <tr>
+            <td>5.Calle Huancavelica Nro. 559</td>
+            <td>Servicios Generales Matheo</td>
+          </tr>
+          <tr>
+            <td>6.Calle Zarumilla Nro. 239 Barrio El Porvenir</td>
+            <td>Bodeguita Cristopher</td>
+          </tr>
+          <tr>
+            <td>7.Calle Catacaos Nro. 253 Barrio El Porvenir</td>
+            <td>Moto Repuestos Benites</td>
+          </tr>
+          <tr>
+            <td>8.Calle Miraflores Nro. 160 Barrio El Porvenir</td>
+            <td>Tienda</td>
+          </tr>
+          <tr>
+            <td>9.Calle Lambayeque Nro. 282 A</td>
+            <td>Negocios y Servicios Generales Matheo</td>
+          </tr>
+          <tr>
+            <td>10.Calle Cuzco Nro. 204</td>
+            <td>Bodeguita San Judas Tadeo</td>
+          </tr>
+          <tr>
+            <td>11.Calle Puno Nro. 381 Centro Bellavista</td>
+            <td>Comercial M & M</td>
+          </tr>
+          <tr>
+            <td>12.Calle Puno Nro. 316</td>
+            <td>Jorge Renteria</td>
+          </tr>
+          <tr>
+            <td>13.Calle Ancash Nro. 516</td>
+            <td>Talledo</td>
+          </tr>
+          <tr>
+            <td>14.Calle Ancash Nro. 640 A.H. Túpac Amaru</td>
+            <td>Centro de fotocopiado Jhosep</td>
+          </tr>
+          <tr>
+            <td>15.Calle Ancash Nro. 679 A.H. Túpac Amaru</td>
+            <td>Jesús Es Mi Pastor</td>
+          </tr>
+          <tr>
+            <td>16.Calle Madre de Dios Nro. 630</td>
+            <td>Bodega Maritza</td>
+          </tr>
+          <tr>
+            <td>17.Calle Loreto Nro. 735</td>
+            <td>Motosrepuestos A&R</td>
+          </tr>
+          <tr>
+            <td>18.Calle Loreto Nro. 653</td>
+            <td>Servicios Generales Rhandi</td>
+          </tr>
+          <tr>
+            <td>19.Calle Loreto Nro. 545</td>
+            <td>Bellavista</td>
+          </tr>
+          <tr>
+            <td>20.Calle Libertad Nro. 272</td>
+            <td>Agente Josselin</td>
+          </tr>
+          <tr>
+            <td>21.Calle Arequipa Nro. 260</td>
+            <td>Comercial Iker</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Querecotillo -->
+  <div class="modal-custom" id="modal-custom-querecotillo">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Querecotillo</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Querecotillo</th>
+          </tr>
+          <tr>
+            <td>1.Pasaje Municipal Nro. Mz. 23 Lote 18 Centro Querecotillo</td>
+            <td>Querecotillo</td>
+          </tr>
+          <tr>
+            <td>2.Calle 2 Mz. B Lt. 7 A.H. José Obdulio Rivera</td>
+            <td>Bazar Mi Nathaly</td>
+          </tr>
+          <tr>
+            <td>3.Calle Alfonso Ugarte Nro. 482</td>
+            <td>Servicios T y T Señor de Chocan</td>
+          </tr>
+          <tr>
+            <td>4.Calle Diego Ferre Nro. 165</td>
+            <td>Servicios Generales Mi Geraldine</td>
+          </tr>
+          <tr>
+            <td>5.Calle Razuri Nro. 16</td>
+            <td>Negocios Generales Mi Cheli</td>
+          </tr>
+          <tr>
+            <td>6.Calle Nueva Esperanza S/N Centro Poblado San Francisco</td>
+            <td>Bazar Librería Mi Majo</td>
+          </tr>
+          <tr>
+            <td>7.Calle Aguirre Nro. 1017</td>
+            <td>Comercial Mi Luan</td>
+          </tr>
+          <tr>
+            <td>8.Calle Inclán Nro. 269 Mz. 11 Lt. 12</td>
+            <td>Servitel Sánchez</td>
+          </tr>
+          <tr>
+            <td>9.Calle Inclán Nro. 708 Barrio Bellavista</td>
+            <td>Restaurante Video Pub Mavi</td>
+          </tr>
+          <tr>
+            <td>10.Calle Aguirre Nro. 177</td>
+            <td>Bodega Cristopher</td>
+          </tr>
+          <tr>
+            <td>11.Caserío La Margarita S/N</td>
+            <td>Servicios Generales Camilo</td>
+          </tr>
+          <tr>
+            <td>12.Caserío Chocan S/N</td>
+            <td>Comercial Erika</td>
+          </tr>
+          <tr>
+            <td>13.Caserío Hualtacal S/N</td>
+            <td>Mi Juliana</td>
+          </tr>
+          <tr>
+            <td>14.Centro Poblado Santa Cruz Calle Grau Mz. Y1 Lt. 04</td>
+            <td>Mi Adrianita</td>
+          </tr>
+          <tr>
+            <td>15.Centro Poblado Santa Cruz Calle Grau S/N</td>
+            <td>Multiservicios Virgen De Guadalupe</td>
+          </tr>
+          <tr>
+            <td>16.Centro Poblado San Francisco S/N</td>
+            <td>Bodeguita Dianny Eliza</td>
+          </tr>
+          <tr>
+            <td>17.Centro Poblado La Horca S/N</td>
+            <td>Servicios Generales "Milagroso Señor Cautivo"</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Salitral Sullana -->
+  <div class="modal-custom" id="modal-custom-salitral-sullana">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Salitral</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Salitral</th>
+          </tr>
+          <tr>
+            <td>1.Calle Libertad Nro. 608</td>
+            <td>Minimarket G y P</td>
+          </tr>
+          <tr>
+            <td>2.Calle Libertad Nro. 624</td>
+            <td>Bodeguita Mi Lucy</td>
+          </tr>
+          <tr>
+            <td>3.Calle Bolognesi Nro. 698</td>
+            <td>Negocios Generales A&V</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Somate Bajo -->
+  <div class="modal-custom" id="modal-custom-somate-bajo">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Colán</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Somate Bajo</th>
+          </tr>
+          <tr>
+            <td>Calle Carlos Leigh S/N Somate Bajo</td>
+            <td>Somate</td>
+          </tr>
+          <tr>
+            <td>Mz. 50 Lt. 05 Somate Bajo</td>
+            <td>Ferretería Astudillo</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Huangalá -->
+  <div class="modal-custom" id="modal-custom-huangala">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Huangalá</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Huangalá</th>
+          </tr>
+          <tr>
+            <td>Calle Jorge Basadre Mz. 02 Lt. 21 </td>
+            <td>Bodega R Y R</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Marcavelica -->
+  <div class="modal-custom" id="modal-custom-marcavelica">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Marcavelica</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Marcavelica</th>
+          </tr>
+          <tr>
+            <td>1.Av. Panamericana Nro. 191</td>
+            <td>Negocios Generales Silva Távara</td>
+          </tr>
+          <tr>
+            <td>2.Av. Panamericana Nro. 116</td>
+            <td>Comercial Romina</td>
+          </tr>
+          <tr>
+            <td>3.Av. Panamericana Nro. 326</td>
+            <td>Norvic</td>
+          </tr>
+          <tr>
+            <td>4.Caserío La Golondrina Av Panamericana S/N</td>
+            <td>Bodeguita Mi Florita</td>
+          </tr>
+          <tr>
+            <td>5.Caserío Monteron Calle Daniel A. Carrión Nro. 2</td>
+            <td>Bazar Chalo</td>
+          </tr>
+          <tr>
+            <td>6.Caserío Mallares Calle Los Portales Nro. 100</td>
+            <td>Multiservicios J y D</td>
+          </tr>
+          <tr>
+            <td>7.Caserío Vista Florida Calle Vista Florida Mz. B Lt. 82</td>
+            <td>AAS Con Multiservicios</td>
+          </tr>
+          <tr>
+            <td>8.Centro Poblado Mallaritos Calle Ramon Castilla Nro. 120</td>
+            <td>Jamilet Exclusividades</td>
+          </tr>
+          <tr>
+            <td>9.Centro Poblado Mallares Calle Saenz Peña Nro. 105</td>
+            <td>J&F Negocios</td>
+          </tr>
+          <tr>
+            <td>10.Centro Poblado La Quinta Calle La Quinta Nro. 252</td>
+            <td>Distribuidora J&L</td>
+          </tr>
+          <tr>
+            <td>11.Centro Poblado La Noria Nro. 830</td>
+            <td>Mi Yolanda</td>
+          </tr>
+          <tr>
+            <td>12.Calle Tupac Amaru S/N Mz. F Lt. 171</td>
+            <td>Tienda Noemí</td>
+          </tr>
+          <tr>
+            <td>13.Calle Independencia S/N </td>
+            <td>Marcavelica</td>
+          </tr>
+          <tr>
+            <td>14.Calle Saman Grande S/N Cas. Saman Grande</td>
+            <td>Piñatería Osiry</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Lancones -->
+  <div class="modal-custom" id="modal-custom-lancones">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Lancones</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Lancones</th>
+          </tr>
+          <tr>
+            <td>1.Calle Los Profetas Mz. I Lt. 07</td>
+            <td>Botiquin Sanitas</td>
+          </tr>
+          <tr>
+            <td>2.Calle Los Profetas Mz. I Lt. 31 Cercado</td>
+            <td>Lancones</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Miguel Checa -->
+  <div class="modal-custom" id="modal-custom-miguel-checa">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Miguel Checa</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Miguel Checa</th>
+          </tr>
+          <tr>
+            <td>1.Calle 9 de Noviembre Nro. 421 Int. 1 Centro</td>
+            <td>Frutería</td>
+          </tr>
+          <tr>
+            <td>2.Calle Comercio Nro. 360 Mz 30 Lt. 1 Centro Poblado Sojo</td>
+            <td>Pollería Don Koki</td>
+          </tr>
+          <tr>
+            <td>3.Av. Bolívar Nro. 327 Centro Poblado Jíbito</td>
+            <td>Bodeguita Mini Todo</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Tambogrande -->
+  <div class="modal-custom" id="modal-custom-tambogrande">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Tambogrande</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Tambogrande</th>
+          </tr>
+          <tr>
+            <td>1.Mz. X 02 C.P. Cruceta Tambogrande</td>
+            <td>Multiservicios Pérez</td>
+          </tr>
+          <tr>
+            <td>2.Calle Lima Nro. 399 Int. D Tambogrande</td>
+            <td>Herzab</td>
+          </tr>
+          <tr>
+            <td>3.Calle Lima N° 316 - Tambogrande</td>
+            <td>Betty Alzamora de Varona</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Las Lomas -->
+  <div class="modal-custom" id="modal-custom-las-lomas">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Las Lomas</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Las Lomas</th>
+          </tr>
+          <tr>
+            <td>1.Calle Miguel Grau Nro. 423</td>
+            <td>Las Lomas</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Ayabaca -->
+  <div class="modal-custom" id="modal-custom-ayabaca">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Ayabaca</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Ayabaca</th>
+          </tr>
+          <tr>
+            <td>1.Calle Merino Nro. 230</td>
+            <td>Ayabaca</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Montero -->
+  <div class="modal-custom" id="modal-custom-montero">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Montero</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Montero</th>
+          </tr>
+          <tr>
+            <td>1.Calle Ernesto Merino S/N</td>
+            <td>Montero</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Paimas -->
+  <div class="modal-custom" id="modal-custom-paimas">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Paimas</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Paimas</th>
+          </tr>
+          <tr>
+            <td>1.Calle Teobaldo Burneo S/N</td>
+            <td>Paimas</td>
+          </tr>
+          <tr>
+            <td>2.Av. Leticia S/N - Suyo</td>
+            <td>Suyo</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Buenos Aires -->
+  <div class="modal-custom" id="modal-custom-buenos-aires">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Buenos Aires</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Buenos Aires</th>
+          </tr>
+          <tr>
+            <td>1.Av. Buenos Aires Mz A Lote 1 B2 A.H. Santa Teresita</td>
+            <td>Caja Municipal Sullana - Of. Buenos Aires</td>
+          </tr>
+          <tr>
+            <td>2.Jr. San Martín 233́</td>
+            <td>Negocios y servicios Angel</td>
+          </tr>
+          <tr>
+            <td>3.Av Rospigliosi 113</td>
+            <td>Comercial Eudocio</td>
+          </tr>
+          <tr>
+            <td>4.Nro s/n Caserío Pueblo Nuevo</td>
+            <td>Bodega Jharet</td>
+          </tr>
+          <tr>
+            <td>5.Av. Principal Nro 609 C.P. Pedregal</td>
+            <td>Negocios y servicios Carolina</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Chulucanas -->
+  <div class="modal-custom" id="modal-custom-chulucanas">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Chulucanas</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Chulucanas</th>
+          </tr>
+          <tr>
+            <td>1.Esq. Jr Piura Nro 812 y Pisaguas s/n</td>
+            <td>Caja Municipal Sullana - Of. Chulucanas/td>
+          </tr>
+          <tr>
+            <td>2.Jr. Apurimac 665 Chulucanas Piura</td>
+            <td>Banco Azteca BA EKT Chulucanas</td>
+          </tr>
+          <tr>
+            <td>3.Esquina Apurimac y La Libertad Plaza de Armas</td>
+            <td>Caja Paita agencia Chulucanas</td>
+          </tr>
+          <tr>
+            <td>4.Esquina Jr. Cuzco 491 - con Jr. Libertad N 376</td>
+            <td>Caja Rural Raíz Agencia Chulucanas</td>
+          </tr>
+          <tr>
+            <td>5.Consuelo Velasco Mz F Lote 12</td>
+            <td>Anyela Imán Huertas Web</td>
+          </tr>
+          <tr>
+            <td>6.Jr. Piura 810 Chulucanas</td>
+            <td>Edwin Flores Morales Web</td>
+          </tr>
+          <tr>
+            <td>7.Jr. Lambayeque 702</td>
+            <td>Bodegas Señor Cautivo</td>
+          </tr>
+          <tr>
+            <td>8.Jr. Callao 400</td>
+            <td>Bodeguita D&G</td>
+          </tr>
+          <tr>
+            <td>9.Jr. Lambayeque 601</td>
+            <td>Negocios Kaluky</td>
+          </tr>
+          <tr>
+            <td>10.Jr. Arequipa 404</td>
+            <td>Multiservicios Xiomara</td>
+          </tr>
+          <tr>
+            <td>11.Jr. Apurimac 760</td>
+            <td>Negocios Generales Jehová es mi Fortaleza</td>
+          </tr>
+          <tr>
+            <td>12.Jr. Apurimac Nro 597</td>
+            <td>Bazar Perfumería Mary</td>
+          </tr>
+          <tr>
+            <td>13.Jr. Tupac Amaru Nro 112 Chulucanas</td>
+            <td>Servicios Eduardo</td>
+          </tr>
+          <tr>
+            <td>14.Mza Blote 215 Cas. Km 50</td>
+            <td>Cabina de internet Lita & Jimena</td>
+          </tr>
+          <tr>
+            <td>15.Mza G1 Lotes 28 Cas. Los Cocos</td>
+            <td>Comercial Geraldine</td>
+          </tr>
+          <tr>
+            <td>16.Jr Pisagua 760</td>
+            <td>Bodeguita mi Piero</td>
+          </tr>
+          <tr>
+            <td>17.Cas. Paccha Av San Juan Mz 8 Lote 15</td>
+            <td>Bodeguita mi Daniel</td>
+          </tr>
+          <tr>
+            <td>18.Caserío Piura la Vieja</td>
+            <td>María Ynelda Ortiz Cabana</td>
+          </tr>
+          <tr>
+            <td>19.Calle Miguel Grau 258 La Encantada</td>
+            <td>Botica Jehová es mi Pastor</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Morropón -->
+  <div class="modal-custom" id="modal-custom-morropon">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Morropón</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Morropón</th>
+          </tr>
+          <tr>
+            <td>1.Cal. Cajamarca Nro. 413</td>
+            <td>Comercial Multiagente García</td>
+          </tr>
+          <tr>
+            <td>2.Jr. Javier Prado 191 Caserío La Huaquilla</td>
+            <td>Doraldina Zapata Prieto Web</td>
+          </tr>
+          <tr>
+            <td>3.Cal. Javier Prado Nro 194 Cas. La Huaquilla</td>
+            <td>Bodeguita Yj L</td>
+          </tr>
+          <tr>
+            <td>4.</td>
+            <td>Banco de la Nación</td>
+          </tr>
+          <tr>
+            <td>5.</td>
+            <td>Caja Piura</td>
+          </tr>
+          <tr>
+            <td>6.Jr. Cajamarca N° 485 Lt. 1 Mz 38</td>
+            <td>Agencia Morropon</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de La Matanza -->
+  <div class="modal-custom" id="modal-custom-la-matanza">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de La Matanza</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">La Matanza</th>
+          </tr>
+          <tr>
+            <td>1.Mz 25 Lote 7 d Calle José Olaya</td>
+            <td>Multiservicios Generales Lucas</td>
+          </tr>
+          <tr>
+            <td>2.</td>
+            <td>Banco de la Nación</td>
+          </tr>
+          <tr>
+            <td>3.</td>
+            <td>Caja Piura</td>
+          </tr>
+          <tr>
+            <td>3.Av. 28 de Julio Mz. 30 Lt. 5 - A.</td>
+            <td>Ag La Matanza</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Salitral -->
+  <div class="modal-custom" id="modal-custom-salitral-morropon">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Salitral</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Salitral</th>
+          </tr>
+          <tr>
+            <td>1.Calle Calvo y Perez 325 A.H. El Obrero</td>
+            <td>Agente Milagritos</td>
+          </tr>
+          <tr>
+            <td>2.Calle 8 de Octubre 404</td>
+            <td>Multiservicios Diana</td>
+          </tr>
+          <tr>
+            <td>3.Mza. A Lote 41 Cas. Palo Blanco</td>
+            <td>Multiservicios Fiorela</td>
+          </tr>
+          <tr>
+            <td>4.</td>
+            <td>Banco de la Nación</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Santo Domingo -->
+  <div class="modal-custom" id="modal-custom-santo-domingo">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Santo Domingo</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Santo Domingo</th>
+          </tr>
+          <tr>
+            <td>1.</td>
+            <td>Banco de la Nación</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Santa Catalina de Mossa -->
+  <div class="modal-custom" id="modal-custom-santa-catalina-de-mossa">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Santa Catalina de Mossa</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Santa Catalina de Mossa</th>
+          </tr>
+          <tr>
+            <td>1.Mz A Lote 36 Caseria Pueblo Nuevo de Maray</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Yamango -->
+  <div class="modal-custom" id="modal-custom-yamango">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Yamango</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Yamango</th>
+          </tr>
+          <tr>
+            <td>1.Mza A Lote 143 Cas. Yamango</td>
+            <td>Rest. Y Multiservicios Matias</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de San Juan de Bigote -->
+  <div class="modal-custom" id="modal-custom-san-juan-de-bigote">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de San Juan de Bigote</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">San Juan de Bigote</th>
+          </tr>
+          <tr>
+            <td>1.Cal.a s/n Mza 5 Lote 0 San Juan de Bigote</td>
+            <td>Bodeguita Mi Brenda</td>
+          </tr>
+        </table>
+
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Chalaco -->
+  <div class="modal-custom" id="modal-custom-chalaco">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Chalaco</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+
+
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Chalaco</th>
+          </tr>
+          <tr>
+            <td>1.</td>
+            <td>Banco de la Nación</td>
+          </tr>
+        </table>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Pacaipampa -->
+  <div class="modal-custom" id="modal-custom-pacaipampa">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Pacaipampa</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+
+        <table class="table table-striped success">
+          <tr>
+            <td> </td>
+          </tr>
+        </table>
+
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Frías -->
+  <div class="modal-custom" id="modal-custom-frias">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Frías</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+
+        <table class="table table-striped success">
+          <tr>
+            <td> </td>
+          </tr>
+        </table>
+
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Huancabamba -->
+  <div class="modal-custom" id="modal-custom-huancabamba">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Huancabamba</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+
+
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Huancabamba</th>
+          </tr>
+          <tr>
+            <td>1.Av Centenario Nro 209</td>
+            <td>Botica Kofarma</td>
+          </tr>
+          <tr>
+            <td>2.Av Centenario 104</td>
+            <td>Restaurant Polleria Los Niños</td>
+          </tr>
+          <tr>
+            <td>3.Cal. Morropón Nro 311</td>
+            <td>Boutique Leo</td>
+          </tr>
+          <tr>
+            <td>4.Cal. Miguel Grau Nro 310</td>
+            <td>Boticas del Norte</td>
+          </tr>
+          <tr>
+            <td>5.Calle San Martīn Nro 110</td>
+            <td>Norandino Huancabamba</td>
+          </tr>
+          <tr>
+            <td>6.</td>
+            <td>Banco de la Nación</td>
+          </tr>
+          <tr>
+            <td>7.</td>
+            <td>Caja Piura</td>
+          </tr>
+          <tr>
+            <td>8.Calle Huascar N°221</td>
+            <td>Agencia Huancabamba</td>
+          </tr>
+        </table>
+
+      </div>
+    </div>
+  </div>
+  <!-- Distrito de Huarmaca -->
+  <div class="modal-custom" id="modal-custom-huarmaca">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Huarmaca</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Huarmaca</th>
+          </tr>
+          <tr>
+            <td>1.Carretera Fernando Belaunde Terry Km 36</td>
+            <td>Negocios San & San</td>
+          </tr>
+          <tr>
+            <td>2.Cal. Francisco Bolognesi Mza. H44 Lote 3b</td>
+            <td>Multiservicios Romero</td>
+          </tr>
+          <tr>
+            <td>3.</td>
+            <td>Banco de la Nación</td>
+          </tr>
+          <tr>
+            <td>4.</td>
+            <td>Caja Piura</td>
+          </tr>
+        </table>
+
+
+      </div>
+    </div>
+  </div>
+  <!-- Distrito de Canchaque -->
+  <div class="modal-custom" id="modal-custom-canchaque">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Canchaque</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Canchaque</th>
+          </tr>
+          <tr>
+            <td>1.</td>
+            <td>Banco de la Nación</td>
+          </tr>
+          <tr>
+            <td>2.</td>
+            <td>Caja Piura</td>
+          </tr>
+        </table>
+
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modales Piura end -->
+
+  <!-- Modales Tumbes-->
+  <!-- Tumbes -->
+  <div class="modal-custom" id="modal-custom-tumbes">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Tumbes</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Tumbes</th>
+          </tr>
+          <tr>
+            <td>1.Av. Piura s/n Puesto 11</td>
+            <td>José Paico Espinoza</td>
+          </tr>
+          <tr>
+            <td>2.Av. Miguel Grau Nro. 202</td>
+            <td>Tessy del Pilar Rosillo Mejía</td>
+          </tr>
+          <tr>
+            <td>3.Av. Ramón Castilla Nro. 533</td>
+            <td>Juana Elisa Velazco Sánchez</td>
+          </tr>
+          <tr>
+            <td>4.Av. Ramón Castilla Nro. 612</td>
+            <td>Santa Elisa & R M SCRL</td>
+          </tr>
+          <tr>
+            <td>5.Av. Ramón Castilla Nro. 785</td>
+            <td>Ángel Palma Tapara</td>
+          </tr>
+          <tr>
+            <td>6.Calle Bolognesi Nro. 201</td>
+            <td>Digna Erelina Silva de Boulangger</td>
+          </tr>
+          <tr>
+            <td>7.Calle Miraflores Nro. 235 Barrio El Recreo</td>
+            <td>Yesenia Elizabeth Palacios Gómez</td>
+          </tr>
+          <tr>
+            <td>8.Calle Sánchez Carrión Nro. 207</td>
+            <td>José Luis de La Cruz Gutiérrez</td>
+          </tr>
+          <tr>
+            <td>9.Calle Francisco Navarrete Nro. 414</td>
+            <td>Roxana Carmen Miranda Romero</td>
+          </tr>
+          <tr>
+            <td>10.Calle Túpac Amaru Nro. 210</td>
+            <td>Germán Escobar Ávila</td>
+          </tr>
+          <tr>
+            <td>11.Calle Simón Bolívar Nro. 307</td>
+            <td>Verónica Mariela Nole Azabache</td>
+          </tr>
+          <tr>
+            <td>12.Calle Piura Nro. 1048</td>
+            <td>Ricardo Palomino Viera</td>
+          </tr>
+          <tr>
+            <td>13.Jr. San Martín Nro. 211</td>
+            <td>Elizbeth Yubitza Rugel Lupu</td>
+          </tr>
+          <tr>
+            <td>14.Jr. Simón Bolívar Nro. 410 Interior 01</td>
+            <td>Distribuidora Karymara E.I.R.L</td>
+          </tr>
+          <tr>
+            <td>15.Jr. General Morzán Nro. 441</td>
+            <td>Yobancy Yessenia Gracia Morán</td>
+          </tr>
+          <tr>
+            <td>16.Jr. Mayor Novoa Nro. 714 Int. 001</td>
+            <td>Villarreal Ingenieros, Arquitectos & Abogados</td>
+          </tr>
+          <tr>
+            <td>17.Jr. Francisco Pizarro Nro. 224</td>
+            <td>Adela Cristina Miranda Romero</td>
+          </tr>
+          <tr>
+            <td>18.Prolg. San Pedro Nro. 121 Barrio San Nicolás El Tablazo</td>
+            <td>Yorman David Parrilla Ávila</td>
+          </tr>
+          <tr>
+            <td>19.A.H. Pueblo Nuevo Mz. E Lt. 2</td>
+            <td>Katherine Lisbeth Ojeda Oviedo</td>
+          </tr>
+          <tr>
+            <td>20.A.H. Pampa Grande Av. Simón Bolívar Nro. 341 Mz. L Lt. 05</td>
+            <td>Jovani Carlos Tandazo Coronado</td>
+          </tr>
+          <tr>
+            <td>21.A.H. Salamanca Mz. D Lt. 2</td>
+            <td>Isabel Gómez Nanquen</td>
+          </tr>
+          <tr>
+            <td>22.Calle Rivera del Mar s/n</td>
+            <td>Elizabeth Calderón Núñez</td>
+          </tr>
+          <tr>
+            <td>23.Urb. Andrés Araujo Mz. 1 Lt. 14</td>
+            <td>Nadia Antuanet García García</td>
+          </tr>
+          <tr>
+            <td>24.Urb. Andrés Araujo Mz. 28 A Lt. 05</td>
+            <td>María Ventura Hernández León</td>
+          </tr>
+          <tr>
+            <td>25.Urb. Andrés Araujo Mz. 21 Lt. 07</td>
+            <td>Elizabeth Del Carmen Henckell García</td>
+          </tr>
+          <tr>
+            <td>26.Urb. Andrés Araujo Mz. 27 Lt. 6</td>
+            <td>Jonathan Stick E.I.R.L</td>
+          </tr>
+          <tr>
+            <td>27.Urb. Andrés Araujo Mz. 02 Lt. 02</td>
+            <td>Libia Ochoa López</td>
+          </tr>
+          <tr>
+            <td>28.Urb. José Lishner Tudela Mz. P Lt. 2</td>
+            <td>María Lila Guerrero de Córdova</td>
+          </tr>
+          <tr>
+            <td>29.Urb. José Lishner Tudela II Etapa Mz. Q Lt. 05</td>
+            <td>Jenner Harold Vínces Morán</td>
+          </tr>
+          <tr>
+            <td>30.A.H. Virgen del Cisne Calle Santa Martha Mz. U Lt. 28</td>
+            <td>Bazar Dios es Mi Proveedor D & L E.I.R.L</td>
+          </tr>
+          <tr>
+            <td>31.A.H. Alipio Rosales Calle Jacinto Seminario Mz. H Lt. 14</td>
+            <td>Karla Isabel Díaz Balladares</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de San Jacinto -->
+  <div class="modal-custom" id="modal-custom-san-jacinto">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de San Jacinto</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">San Jacinto</th>
+          </tr>
+          <tr>
+            <td>1.Av. Miguel Grau Nro. 117</td>
+            <td>Bodeguita Virgen de Guadalupe</td>
+          </tr>
+          <tr>
+            <td>2.Calle Los Gorriones Nro. 120</td>
+            <td>Comercial Rudyfal</td>
+          </tr>
+        </table>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Corrales -->
+  <div class="modal-custom" id="modal-custom-corrales">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Corrales</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Corrales</th>
+          </tr>
+          <tr>
+            <td>1.Av. Atahualpa Nro. 421</td>
+            <td>Comercial Alburqueque</td>
+          </tr>
+          <tr>
+            <td>2.Av. Atahualpa Nro. 410</td>
+            <td>Servicios Múltiples Frank</td>
+          </tr>
+          <tr>
+            <td>3.Calle Hilario Carrasco Nro. 413</td>
+            <td>Servicios Generales Casli</td>
+          </tr>
+          <tr>
+            <td>4.Jr. Inca Yupanqui Nro. 604</td>
+            <td>Mi Katia</td>
+          </tr>
+          <tr>
+            <td>5.Jr. Inca Yupanqui Nro. 510</td>
+            <td>Representaciones Silvia</td>
+          </tr>
+          <tr>
+            <td>6.Jr. Piura Nro. 106 Centro de Corrales</td>
+            <td>Multiservicios Open</td>
+          </tr>
+          <tr>
+            <td>7.A.H. Juan V. Alvarado Mz. A Lt. 5</td>
+            <td>Comercial Masil</td>
+          </tr>
+        </table>
+
+
+      </div>
+    </div>
+  </div>
+  <!-- Distrito de La Cruz -->
+  <div class="modal-custom" id="modal-custom-la-cruz">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de La Cruz</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">La Cruz</th>
+          </tr>
+          <tr>
+            <td>1.Av. Bolognesi Nro. 225 Barrio 19</td>
+            <td>Bodega Anyer</td>
+          </tr>
+          <tr>
+            <td>2.Av. Independencia s/n Barrio 19</td>
+            <td>Cabinas de Internet Zeta</td>
+          </tr>
+          <tr>
+            <td>3.Av. Independencia Nro. 412 Mz. 07 Lt. 08</td>
+            <td>Novedades Carla</td>
+          </tr>
+          <tr>
+            <td>4.Jr. Piura Nro. 134</td>
+            <td>Venta y Servicios Medalla Milagrosa</td>
+          </tr>
+          <tr>
+            <td>5.Jr. Piura Nro. 137 Int. 01</td>
+            <td>Productos Mi Maryuri</td>
+          </tr>
+          <tr>
+            <td>6.Jr. Francisco Pizarro Nro. 104</td>
+            <td>Kiosko Mi Gianella</td>
+          </tr>
+          <tr>
+            <td>7.Jr. Pacífico Nro. 211</td>
+            <td>Bazar Aroom</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de San Juan de la Virgen -->
+  <div class="modal-custom" id="modal-custom-san-juan-de-la-virgen">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de San Juan de la Virgen</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">San Juan de la Virgen</th>
+          </tr>
+          <tr>
+            <td>1.Calle Puno s/n</td>
+            <td>Bodeguita Mi Charrapita (Agente Vendemás)</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Canoas de Punta Sal -->
+  <div class="modal-custom" id="modal-custom-canoas-de-punta-sal">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Canoas de Punta Sal</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Canoas de Punta Sal</th>
+          </tr>
+          <tr>
+            <td>1.Av. Alejandro Toledo Nro. 719 Barrio Centro</td>
+            <td>Tienda Librería Jehová es mi Guía</td>
+          </tr>
+          <tr>
+            <td>2.Av. Panamericana Nro. 614</td>
+            <td>Botica Bazar Graciela y Lupita</td>
+          </tr>
+          <tr>
+            <td>3.Calle Panamericana Norte s/n Barrio Nuevo</td>
+            <td>Ferretería Siar E.I.R.L.</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Distrito de Zorritos -->
+  <div class="modal-custom" id="modal-custom-zorritos">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Zorritos</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Zorritos</th>
+          </tr>
+          <tr>
+            <td>1.Av. Grau Nro. 513 Villar Cercado</td>
+            <td>Servicios JV&A</td>
+          </tr>
+          <tr>
+            <td>2.Av. República del Perú Nro. 304</td>
+            <td>Restaurant Sol y Mar</td>
+          </tr>
+          <tr>
+            <td>3.Jr. Miguel Grau Nro. 315 A</td>
+            <td>Super Jos.com</td>
+          </tr>
+          <tr>
+            <td>4.Jr. Ica Nro. 445 Int. 1 Cent Contralmirante Villar</td>
+            <td>Bodega Lucerito</td>
+          </tr>
+        </table>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de zarumilla -->
+  <div class="modal-custom" id="modal-custom-zarumilla">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Zarumilla</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">zarumilla</th>
+          </tr>
+          <tr>
+            <td>1.Av. Arica Nro. 408</td>
+            <td>Juguería Lázer</td>
+          </tr>
+          <tr>
+            <td>2.Jr. Maximiliano Morán Nro. 128 Centro Zarumilla</td>
+            <td>Bodeguita Jowel</td>
+          </tr>
+          <tr>
+            <td>3.Jr. Tumbes Nro. 405 Int. 1A Cercado</td>
+            <td>Digital Center</td>
+          </tr>
+          <tr>
+            <td>4.A.H. Campo Amor Calle Lima Mz. 14 Lt. 21</td>
+            <td>Comercial Valerie</td>
+          </tr>
+          <tr>
+            <td>5.A.H. Campo Amor Calle Ilo s/n Mz. E18 Lt. 22 Sector Nuevo Piura</td>
+            <td>Yorlianh</td>
+          </tr>
+        </table>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de Papayal -->
+  <div class="modal-custom" id="modal-custom-papayal">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Papayal</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Papayal</th>
+          </tr>
+          <tr>
+            <td>1.Calle Ramón Castilla Nro. 296</td>
+            <td>Mi Aurorita</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de matapalo -->
+  <div class="modal-custom" id="modal-custom-matapalo">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Matapalo</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">matapalo</th>
+          </tr>
+          <tr>
+            <td>1.Av. Principal Nro. 510</td>
+            <td>Bodega Mi Fortaleza</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Distrito de aguas verdes -->
+  <div class="modal-custom" id="modal-custom-aguas-verdes">
+    <div class="modal-custom__wrapper">
+      <header class="modal-custom__header">
+        <h2 class="modal-custom__title">Distrito de Aguas Verdes</h2>
+        <button id="closeModal-custom">&times;</button>
+      </header>
+      <hr class="modal-custom__separator">
+      <div class="modal-custom__content">
+
+        <table class="table table-striped success">
+          <tr>
+            <th colspan="2" style="text-align: center;">Aguas Verdes</th>
+          </tr>
+          <tr>
+            <td>1.Av. República del Perú Mz. B Lt. 4 I Etapa</td>
+            <td>JK Seguros Generales </td>
+          </tr>
+          <tr>
+            <td>2.Av. República de Perú Nro. 225</td>
+            <td>Servicios Generales Ave Fénix</td>
+          </tr>
+          <tr>
+            <td>3.Av. República del Perú Nro. 321</td>
+            <td>Multiservicios Jeremi</td>
+          </tr>
+          <tr>
+            <td>4.Calle República del Perú Mz. 29 Lt. 12</td>
+            <td>Multiservicios Mis Tres D</td>
+          </tr>
+          <tr>
+            <td>5.A.H. La Curva Mz. B Lt. 05</td>
+            <td>Ferretería El Descuentazo</td>
+          </tr>
+          <tr>
+            <td>6.Jr. Cajamarca Nro. 108</td>
+            <td>Comercial Jehová Jireh</td>
+          </tr>
+        </table>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="overlay-custom"></div>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+
+  <script>
+    $('#myCollapsible').collapse({
+      toggle: false
+    })
+    $('#myModal').modal({
+      keyboard: false
+    })
+  </script>
+  <script src="./modalCustom.js"></script>
+</body>
+
+</html>
